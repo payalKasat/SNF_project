@@ -1,0 +1,60 @@
+/* ashwini created 2/26/2018 */
+.container {
+    padding: 80px 120px;
+}
+h3, h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;
+    font-size: 20px;
+    color: #111;
+}
+.carousel-inner{
+    height: 70vh;
+}
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+}
+.carousel-indicators{
+    top:10px;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #f6b75d !important;
+    font-size: large;
+    font-weight: bold;
+}
+
+.navbar-nav li.active a {
+    color: #f6b75d !important;
+}
+
+.navbar{
+    height: 10vh;
+    font-family: Montserrat, sans-serif;
+    border-bottom: 5px solid #1f76bd;
+    font-size: 10px !important;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    border-bottom: 5px solid #f6b75d;
+    background-color: transparent;
+}
+@media (max-width: 600px) {
+    .navbar {
+        height: 15vh;
+        background-color: transparent;
+    }
+    .carousel-inner{
+        height: 30vh;
+    }
+    .carousel-inner>img{
+        height:auto ;
+    }
+
+}
+@media (max-width: 768px) {
+    .navbar-nav{
+        margin-right: -10px;
+    }
+}
