@@ -1,0 +1,35 @@
+/*Created by Ashwini 3/4/2018*/
+
+body{
+    font-style: normal;
+    font-family: Cambria;
+    color:#fdb642;
+    line-height: 1.8;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+p{
+    color: #1f76bd;
+    text-indent: 30px;
+}
+.snf_logo{
+    margin: auto;
+}
+.navbar-default{
+    background-color: #fdb642;
+    #border-top: 5px solid #1f76bd;
+    border-bottom: 5px solid #1f76bd;
+}
+.navbar-nav>li{
+    font-weight: bolder;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #1f76bd;
+}
+
+.panel-default>.panel-heading{
+    background-color: #fdb642;
+    color: #1f76bd;
+    font-weight: bolder;
+    font-size: 20px;
+}

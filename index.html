@@ -3,1030 +3,199 @@
 <!DOCTYPE html>
 <html class="no-js">
 <head>
-    <meta charset="utf-8">
-    <title>Social Networking Forum - Nashik</title>
-    <meta name="description" content="">
+    <meta charset="UTF-8" lang="eng">
+    <title>SNF</title>
+    <meta name="author" content="ashwini kasat">
+    <meta name="keywords" content="HTML, CSS, jQuary,javaScript">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
-
-    <!-- Bootsrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
-    <!-- Font awesome -->
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-
-    <!-- Owl carousel -->
-    <link rel="stylesheet" href="assets/css/owl.carousel.css">
-
-    <!-- PrettyPhoto -->
-    <link rel="stylesheet" href="assets/css/prettyPhoto.css">
-
-    <!-- Template main Css -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Modernizr -->
-    <script src="assets/js/modernizr-2.6.2.min.js"></script>
-
-
-    <link rel="icon" type="image/png" href="new.png">
-
-
-    <script language="javascript">
-        function printdiv(printpage)
-        {
-            var headstr = "<html><head><title></title></head><body>";
-            var footstr = "</body>";
-            var newstr = document.all.item(printpage).innerHTML;
-            var oldstr = document.body.innerHTML;
-            document.body.innerHTML = headstr+newstr+footstr;
-            window.print();
-            document.body.innerHTML = oldstr;
-            return false;
-        }
-    </script>
-
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script2.js"></script>
+    <link rel="stylesheet" type="text/css" href="style2.css">
 
 </head>
+<body id="#home_page">
 
-<body>
+<div class="page-header">
+    <img class="img-responsive snf_logo" src="images/snf_logo2.png" alt="SNF logo">
+</div>
+<!-- header ends here-->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
 
-
-<header class="main-header">
-
-    <nav class="navbar navbar-static-top">
-
-        <div class="navbar-top">
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-xs-12">
-                        <ul class="list-unstyled list-inline header-contact">
-                            <li> <i class="fa fa-phone"></i> <a href="tel:">+91 7588979986, +91 9421609987</a> </li>
-                            <li> <i class="fa fa-envelope"></i> <a href="mailto:socialforum10@gmail.com">socialforum10@gmail.com</a> </li>
-                        </ul> <!-- /.header-contact  -->
-                    </div>
-
-                    <div class="col-sm-6 col-xs-12 text-right">
-
-                        <ul class="list-unstyled list-inline header-social">
-
-                            <li> <a href="https://www.facebook.com/socialnetworkingforum/" target="_blank"> <i class="fa fa-facebook"></i> </a> </li>
-                            <li> <a href="https://twitter.com/Pramod_Gaikwad" target="_balnk"> <i class="fa fa-twitter"></i>  </a> </li>
-                            <li> <a href="https://plus.google.com/u/0/+PramodGaikwad-SNF" target="_blank"> <i class="fa fa-google"></i>  </a> </li>
-                            <li> <a href="#"> <i class="fa fa-youtube"></i>  </a> </li>
-                            <li> <a href="#"> <i class="fa fa fa-pinterest-p"></i>  </a> </li>
-                        </ul> <!-- /.header-social  -->
-
-                    </div>
-
-
-                </div>
-            </div>
+            </ul>
 
         </div>
+    </div>
+</nav>
 
-
-        <div class="navbar-main">
-
-            <div class="container">
-
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-
-                    </button>
-                    <!---<div id="navbar" class="navbar-collapse collapse pull-center">
-                    <a class="navbar-brand" href="index.html"><img src="assets/images/logosmg.png" height="105" width="500" alt=""/></a>
-                    </div>---->
-
-                    <!---  <div id="navbar" class="navbar-collapse collapse pull-center">---->
-                    <a class="navbar-brand" href="index.php"><img src="assets/images/logosmg.png" class="img-responsive" height="200" width="450" alt=""/></a>
-                    <!---- </div>---->
-
-                </div>
-
-                <div id="navbar" class="navbar-collapse collapse pull-right">
-
-                    <ul class="nav navbar-nav">
-
-                        <li><a class="is-active" href="index.php">HOME</a></li>
-                        <li class="has-child"><a href="#">WHO WE ARE</a>
-                            <ul class="submenu">
-                                <li class="submenu-item"><a href="about.php">About Us</a></li>
-
-                                <li class="submenu-item"><a href="fview.php">Founders View</a></li>
-                                <li class="submenu-item"><a href="issues.php">Important SNF Projects</a></li>
-                                <li class="submenu-item"><a href="team.php">Team SNF</a></li>
-                                <li class="submenu-item"><a href="mv.php">Vission / Mission</a></li>
-                                <li class="submenu-item"><a href="overview.php">SNF Overview</a></li>
-
-                            </ul>
-                        </li>
-                        <li class="has-child"><a href="#">WHAT WE DO</a>
-
-                            <ul class="submenu">
-                                <!--  <li class="submenu-item"><a href="causes.html">Causes list </a></li>-->
-                                <!-- <li class="submenu-item"><a href="moto.php">Our Moto</a></li>-->
-                                <li class="submenu-item"><a href="cmplpro.php">On Going Projects</a></li>
-                                <li class="submenu-item"><a href="next.php">Upcoming Projects</a></li>
-                                <!--<li class="submenu-item"><a href="financial.php">Financials</a></li>-->
-                            </ul>
-
-                        </li>
-
-                        <li class="has-child"><a href="#">REPORTS</a>
-
-                            <ul class="submenu">
-
-                                <li class="submenu-item"><a href="report.php">SNF Financial Reports</a></li>
-                                <li class="submenu-item"><a href="stat.php">Statistics and study</a></li>
-                                <!--  <li class="submenu-item"><a href="">The uniqueness of the project</a></li>
-                                 <li class="submenu-item"><a href="">Strategies and plan of action</a></li>
-                                 <li class="submenu-item"><a href="">Impact of the Project</a></li> -->
-                            </ul>
-
-                        </li>
-                        <!--  <li><a href="#">Overview</a></li> -->
-                        <li class="has-child"><a href="#">MEDIA / AWARDS</a>
-
-                            <ul class="submenu">
-                                <li class="submenu-item"><a href="article.php">Articles on SNF</a></li>
-                                <li class="submenu-item"><a href="news.php">SNF in newspapers</a></li>
-                                <!--  <li class="submenu-item"><a href="gallery.php">SNF Gallery</a></li> -->
-                                <!--  <li class="submenu-item"><a href="#">SNF on TV Channels</a></li> -->
-                                <li class="submenu-item"><a href="docu.php">SNF TV News/ Documentary</a></li>
-                                <li class="submenu-item"><a href="#">Awards & Recognition</a></li>
-
-                            </ul>
-
-                        </li>
-                        <!--  <li><a href="news.php">MEDIA</a></li> -->
-                        <li><a href="contact.php">CONTACT</a></li>
-
-                    </ul>
-
-                </div> <!-- /#navbar -->
-
-            </div> <!-- /.container -->
-
-        </div> <!-- /.navbar-main -->
-
-
-    </nav>
-
-</header> <!-- /. main-header -->
-
-
-
-
-<!-- Carousel
-================================================== -->
-<div id="homeCarousel" class="carousel slide carousel-home" data-ride="carousel">
-
+<!-- Nav bar ends here-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
-        <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#homeCarousel" data-slide-to="1"></li>
-        <li data-target="#homeCarousel" data-slide-to="2"></li>
-        <li data-target="#homeCarousel" data-slide-to="3"></li>
-        <li data-target="#homeCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
     </ol>
 
-    <div class="carousel-inner" role="listbox">
-
-
-
-
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
         <div class="item active">
-
-            <img src="assets/Cover/a1.png" alt="">
-
-            <div class="container">
-
-                <div class="carousel-caption ">
-
-                    <!--<div class="box">-->
-                    <!--<h2 class="carousel-title bounceInDown animated slow">* Drinking Water Projects *</h2>-->
-                    <!--<h4 class="carousel-subtitle bounceInUp animated slow">Many Villages Made Water Sufficient</h4>-->
-                    <!--<h2 class="carousel-subtitle bounceInUp animated slow " style="font-size:25px">10 Villages Made Water Sufficient.</h2>-->
-                    <!--<a href="#" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow" data-toggle="modal" data-target="#donateModal">DONATE NOW</a> -->
-                    <!--</div>-->
-
-                </div> <!-- /.carousel-caption -->
-
-            </div>
-
-        </div> <!-- /.item -->
-
-
-
-
-
-
-
+            <img class="img-responsive" src="images/landing_image1.png" alt="Los Angeles">
+        </div>
 
         <div class="item">
+            <img class="img-responsive" src="images/landing_image2.png" alt="Chicago">
+        </div>
 
-            <img src="assets/Cover/4.png" alt="">
-
-            <div class="container">
-
-                <div class="carousel-caption">
-
-                    <!--<div class="box">-->
-                    <!--<h2 class="carousel-title bounceInDown animated slow">* Drinking Water Projects *</h2>-->
-                    <!--<h4 class="carousel-subtitle bounceInUp animated slow ">Some More Villages Waiting For Water</h4>-->
-                    <!--  <a href="#" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow" data-toggle="modal" data-target="#donateModal">DONATE NOW</a> -->
-                    <!--</div>-->
-
-                </div> <!-- /.carousel-caption -->
-
-            </div>
-
-        </div> <!-- /.item -->
-
-
-
-
-
-
-        <div class="item ">
-
-            <img src="assets/Cover/2.png" alt="">
-
-            <div class="container">
-
-                <div class="carousel-caption">
-
-                    <!--<div class="box">-->
-                    <!--<h2 class="carousel-title bounceInDown animated slow">* Enviromental Conservation *</h2>-->
-                    <!--<h4 class="carousel-subtitle bounceInUp animated slow">Thousands of Trees Planted And Conserved</h4>-->
-                    <!--  <a href="#" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated" data-toggle="modal" data-target="#donateModal">DONATE NOW</a> -->
-                    <!--</div>-->
-
-                </div> <!-- /.carousel-caption -->
-
-            </div>
-
-        </div> <!-- /.item -->
-
-
-
-
-        <div class="item ">
-
-            <img src="assets/Cover/3.png" alt="">
-
-            <div class="container">
-
-                <div class="carousel-caption">
-
-                    <!--<div class="box">-->
-                    <!--<h2 class="carousel-title bounceInDown animated slow" >* Tribute To Martyr *</h2>-->
-                    <!--<h4 class="carousel-subtitle bounceInUp animated slow">Financial Help To Shahid Jawan's Families</h4>-->
-                    <!--  <a href="#" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow" data-toggle="modal" data-target="#donateModal">DONATE NOW</a> -->
-                    <!--</div>-->
-
-
-                </div> <!-- /.carousel-caption -->
-
-            </div>
-
-        </div> <!-- /.item -->
-
-
-        <div class="item ">
-
-            <img src="assets/Cover/ass1.png" alt="">
-
-            <div class="container">
-
-                <div class="carousel-caption">
-
-                    <!--<div class="box">-->
-                    <!--<h2 class="carousel-title bounceInDown animated slow" >* Rural And Tribal Upliftment *</h2>-->
-                    <!--<h4 class="carousel-subtitle bounceInUp animated slow">Education, Health And Legal Support To Villagers</h4>-->
-                    <!--  <a href="#" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow" data-toggle="modal" data-target="#donateModal">DONATE NOW</a> -->
-                    <!--</div>-->
-
-
-                </div> <!-- /.carousel-caption -->
-
-            </div>
-
-        </div> <!-- /.item -->
-
-
-
-
-
-
+        <div class="item">
+            <img class="img-responsive" src="images/landing_image3.png" alt="New York">
+        </div>
+        <div class="item">
+            <img class="img-responsive" src="images/landing_image4.png" alt="Chicago">
+        </div>
+        <div class="item">
+            <img class="img-responsive" src="images/landing_image5.png" alt="New York">
+        </div>
     </div>
 
-    <a class="left carousel-control" href="#homeCarousel" role="button" data-slide="prev">
-        <span class="fa fa-angle-left" aria-hidden="true"></span>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
         <span class="sr-only">Previous</span>
     </a>
-
-    <a class="right carousel-control" href="#homeCarousel" role="button" data-slide="next">
-        <span class="fa fa-angle-right" aria-hidden="true"></span>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
         <span class="sr-only">Next</span>
     </a>
-
-</div><!-- /.carousel -->
-
-
-
-
-
-
-
-
-<div class="section-home our-causes animate-onscroll fadeIn">
-
-    <div class="container">
-
-        <!--  <h2 class="title-style-1">Our On Going Projects <span class="title-under"></span></h2> -->
-        <div class="col-md-12">
-            <div class="row">
-                <center>
-                    <table>
-                        <tr>
-                            <td>
-                                <img src="assets/images/logo1.png">
-                            </td>
-                            <td>
-                                &nbsp;&nbsp;&nbsp;&nbsp;
-                            </td>
-                            <td>
-                                <h2 class="title-style-1">Our On Going Projects<span class="title-under"></span></h2>
-                            </td>
-                        </tr>
-                    </table>
-                </center>
-                <br><br>
+</div>
+<div class="container" id="about">
+    <h2 class="text-center">About Us!</h2>
+    <hr style="height:5px; width:600px; background-color:#1f76bd">
+    <div class="panel-group">
+        <div class="panel panel-default">
+            <div class="panel-heading text-center">ABOUT SOCIAL NETWORKING FORUM.</div>
+            <div class="panel-body">
+                <p>While social media was used to spread religious and political unrest on a large scale, social
+                worker Pramod Gopalrao Gaikwad from nashik city of maharashtra state (India) thought to use this platform for
+                motivating young greneration for participating in social causes he started the movement "Social Networking For
+                Social Cause" in the year 2010 on facebook. This informal movement was later on instituionalised as 'Social
+                    Networking Forum' on 15th Dec 2014.</p>
+                <p>The movement has received great response from the Indian youth and NRIs. Through this initiative, hundreds of
+                    projects were undertaken and implemented. The organization’s main aims include resolving drinking water
+                    problems in rural and tribal areas, provide financial help to families of the martyrs, giving help to draught
+                    affected farmers and the children of farmers who have committed suicide, to provide basic amenities, food and
+                    school material such as benches, books, sports kits, educational kits to orphanages.</p>
+                <p>In these times of internet and mobiles, social media is being commonly used as an instrument to spread false
+                    propaganda, to create communal divide, to hurt religious sentiments of people and to bring about unrest in the
+                    society. On this backdrop fourm is connecting the youth across social networking sites and channlizing their
+                    strengths to complete many social responsibilities. This is the uinque example of its kind in the country to
+                    use social media for social cause. This movement has been awrded and recognisied by goverment of maharashtra,
+                    sakal media house, international csr conferance and by many more social organizations.</p>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading text-center">HISTORY OF SOCIAL NETWORKING FORUM.</div>
+            <div class="panel-body">
+                <p>While social media was used to spread religious and political unrest on a large scale, the Social Networking
+                    Forum came into existence by connecting the youth across social networking sites and channelizing their various
+                    strengths to complete many social responsibilities countrywide. This program has extended itself beyond India
+                    to the Non resident Indians all over the world. The Social Networking Forum was conceptualized by social worker
+                    Mr. Pramod Gaikwad with the motto “Social networking for a social cause” using Facebook in July 2010. Within
+                    next one year social networkers from various cities across the country like Dr. Uttam Fartale, Dr. Pankaj
+                    Bhadane, Er. Prashant Bachhav, Mr. Jeewan Sonawane, Ramdas Shinde, Geologist Dr. Jaideep Nikam, Ad. Gulab Aher,
+                    Capt. Nilesh Gaikwad, Shree Dhone, Mrs. Ambika Takalkar, Mrs. Arundhati Dumbre, Mrs. Vaishali Kulkarni,
+                    Vaibhav Kamble, Dinesh Joshi joined hands with this movement and started working actively. Renowned
+                    personalities like Rajysabha MP and President of Indian council for cultural relation Dr. Vinay Sahastrbuddhe,
+                    President of US - Maharashtra Bussiness Development Asso, Mr. Kishor Gore- USA, Ex Municpal Commissioner Mr.
+                    Jeewan Sonawane, Mr. Rajesh Bakshi from Qatar and Mr. Lakshmikant Pownikar from Iraq are some of our active
+                    members and mentors of Social Networking Forum since its inception. In the next two years , hundreds of
+                    youngsters on Facebook were attracted to Social Networking For Social Cause activities and many social projects
+                    were started in all over the state. With the increasing flow of social projects and members, the movement was
+                    then converted into a registered Non-governmental organization in 2014. Crossing all the boundaries laid by
+                    space and time, the organization’s reaching out for Indian youth worldwide turned out to be its greatest
+                    achievement. This organization on its functional grounds even might the first of its kind. The organization
+                    has mainly completed its duties by providing economic aid to families of martyred soldiers, helping drought
+                    struck farmers, providing permanent water sources to villages, adopting children of farmers who committed
+                    suicide and giving educational aid to rural schools.</p><br>
+                <p>Instead of using social networking sites like Facebook and twitter to spread social unrest or as a mere
+                    pastime it could be used for contributing towards socially beneficial causes. The Social Networking Forum turned
+                    this vision into a solid reality. Founder members began inviting youngsters on Facebook to join hands towards
+                    a social cause. Initiated by blood donation camps, Collecting clothes from members and distributing them
+                    among tribal people the movement quickly escalated to stronger activities. As a part of this program,
+                    clothes, sweets, and other necessary-for-life items were gifted during the festival of Diwali in 2010
+                    in small villages of Harsul tribal area. A visit in such areas is a must to understand poverty in raw
+                    reality. The cloth deprived state of the residents of villages such as Harsul further underlines the
+                    importance of organizations like the social networking forum.</p><br>
+                <p>Netizens enthusiastically responded to the requests made to them. Hundreds of people sent in clothes and sweets
+                    to social networking forum for the needy during Diwali . They were then distributed among the village residents.
+                    This activity has been conducted on each year’s Diwali ever since. Many non resident Indians like Mr. Rajesh
+                    Bakshi from Qatar answered to the appeals of the forum and provided for many economically deprived people with
+                    blankets and clothes. The forum made sure that their contribution falls into the deserving hands. This and
+                    other such incidents were recognized over the internet due to which many socially aware netizens connected
+                    amongst themselves and united to work towards a single goal –‘social welfare ‘. Another such account is that
+                    of how the Facebook users helped the forum gift a hundred and fifty books to the unfortunate AIDS infected
+                    children whose care is taken by an institution in Solapur.</p><br>
+                <p>Blood donation camps were organized to save the lives of victims of the terrorist attacks in Mumbai on the
+                    26th of November. Instead of mere words, the forum believes in solid actions and it proved its faith in its
+                    ideals by such actions. Young people all over Maharashtra donated their blood and paid their last respects to
+                    the martyred personnel of the attack. After this the forum has been conducting blood donation camps on the first
+                    of July and the twenty sixth of November every year. Orphanage authorities often ask the social networking
+                    forum to help its residents. The social networking forum has helped many such orphanages and old age homes by
+                    giving notebooks, educational kits, E-education kits and more importantly a feeling of security which they
+                    lacked. This program had soon covered the entire country.</p><br>
+                <p>In the meantime Pakistani military inhumanly beheaded two Indian soldiers. No wonder it evoked strong reactions
+                    on the internet. Once again abiding to its ideal of solid action, the social networking forum sprang into
+                    action and appealed to the members to help the families of the martyred soldiers. It received a never-before
+                    response. Non-resident Indians like Mr. Laxmikant Pownikar from Qatar, Mr. Milind Pagare from Iraq, Mr. Kishor
+                    Pawar from Abu Dhabi, Mr. Mukul Agashe from Singapore and Mr. Sandip Gangarde from China sent in financial
+                    help. The funds raised by Indians all over the world were given to the families of the brave soldiers who
+                    received martyrdom. Netizens even helped in providing water tankers to a drought struck village in Marathwada
+                    area of Maharshtra in 2014.</p><br>
+                <p>The year of 2016 turned out to be rather unfortunate for the state of Maharashtra as famines hit the state at
+                    a large scale. The plight of the ruralites is heart wrenching as they wander about for miles in search of
+                    water .The social networking forum therefore decided to step in and help the people out of this miseries.
+                    Our team surveyed the worst hit / affected villages and called out for help through social media. The appeal
+                    was heeded by several as the response was overwhelming. With the immense contributions and aid that poured in,
+                    the team took to work immediately. Five villages were surveyed and the task to make these five villages self
+                    sufficient and water abundant was completed within the five months from January 2016 to May 2016. Similar
+                    programs were carried out to self suffice three more such villages in the year 2017. Our sincere efforts
+                    continue towards our mission as hundreds of appeals reach us every other day from various villages that face
+                    water scarcity .Analyzing the donations and aids that come in, the forum strives to take up more of such cases.</p>
+                <p>Hundreds of such social tasks carried out by Social Networking Forum prove to be the epitome for the effective use
+                    of social networking and internet for the betterment tribal community and villages of the society. Our mission that
+                    began with the littlie tag line of “Social Networking For Social Cause” has now expanded through financial aid and
+                    volunteering of several hundred youth. We express our pleasure with the fact that people who draw inspiration from
+                    our work have now joined the cause of social work and that they strive hard for the betterment of their own towns
+                    and village. We have executed many such programmes with the help of Facebook. The most satisfactory aspect remains
+                    that the social networking could be put to use in fulfilling moral obligations towards the society we live in.</p>
             </div>
         </div>
 
-        <div class="row">
-
-
-            <div class="col-md-3 col-sm-6">
-
-                <div class="cause">
-
-                    <img src="assets/images/causes/wa.png" alt="" class="cause-img">
-
-                    <!-- <div class="progress cause-progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                        400 / 700
-                      </div>
-                    </div> -->
-
-                    <h4 class="cause-title"><a href="#">DRINKING WATER PROJECT</a></h4>
-                    <div class="cause-details">
-                        SNF Pattern, An Initiative Of Social Networking Forum ...a long term, cost effective solution for water scaracity in difficult terrains...  10 Villages are made water self sufficient in 2 years...  Need to reach 40 more villages
-                        <br><br><br>
-                    </div>
-
-                    <div class="btn-holder text-center">
-
-                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal"> DONATE NOW</a>
-
-                    </div>
-
-
-
-                </div> <!-- /.cause -->
-
-            </div>
-
-
-
-            <div class="col-md-3 col-sm-6">
-
-                <div class="cause">
-
-                    <img src="assets/images/causes/jawan.png" alt="" class="cause-img">
-
-                    <!-- <div class="progress cause-progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
-                        10 / 500
-                      </div>
-                    </div> -->
-
-                    <h4 class="cause-title"><a href="cmplpro.php#jawan">SHAHID JAWAN FUND</a></h4>
-                    <div class="cause-details">
-                        The fund aims towards providing monetary relief to the families of soldiers who lost their lives during service to the nation. The fundraising started in 2013 to imbibe the importance of patriotism in the young generation of India through social media.
-                    </div>
-
-                    <div class="btn-holder text-center">
-
-                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal"> DONATE NOW</a>
-
-                    </div>
-
-
-
-                </div> <!-- /.cause -->
-
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-
-                <div class="cause">
-
-                    <img src="assets/images/causes/tribal.png" alt="" class="cause-img">
-
-                    <!-- <div class="progress cause-progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                        400 / 700
-                      </div>
-                    </div> -->
-
-                    <h4 class="cause-title"><a href="#">RURAL & TRIBAL DEVELOPMENT</a></h4>
-                    <div class="cause-details">
-                        Inspite of ample qualities and hardworking nature people in rural and tribal areas lack behind just because of availability of oppourtunities. Social networking forum is woking on creating such oppourtunities by supproting them in education, health adn legal sector.
-                        <br>
-                    </div>
-
-                    <div class="btn-holder text-center">
-
-                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal"> DONATE NOW</a>
-
-                    </div>
-
-
-
-                </div> <!-- /.cause -->
-
-            </div>
-
-
-            <div class="col-md-3 col-sm-6">
-
-                <div class="cause">
-
-                    <img src="assets/images/causes/tre.png" alt="" class="cause-img">
-
-                    <!-- <div class="progress cause-progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
-                        400 / 1000
-                      </div>
-                    </div> -->
-
-                    <h4 class="cause-title"><a href="#">ENVIROMENTAL CONSERVATION</a></h4>
-                    <div class="cause-details">
-                        The problem of degrading forest cover and increasing pollution has been addressed by the social networking forum by organizing tree plantation drives. The forum began handling larger projects like mass afforestation, permanent water scarcity solutions, river pollution issues and several others of its kind.
-                    </div>
-
-                    <div class="btn-holder text-center">
-
-                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#donateModal"> DONATE NOW</a>
-
-                    </div>
-
-
-
-                </div> <!-- /.cause -->
-
-            </div>
-
-
-
-        </div>
-
     </div>
-
-</div> <!-- /.our-causes -->
-
-
-
-
-
-
-
-
-
-
-
-<div class="section-home home-reasons">
-
-    <div class="container">
-
-        <div class="row">
-
-            <div class="col-md-6">
-
-                <div class="reasons-col animate-onscroll fadeIn">
-
-                    <img src="assets/images/reasons/before_after.jpg" alt="">
-
-                    <div class="reasons-titles">
-
-                        <h3 class="reasons-title" style="margin-top: -16px;">MANY VILLAGES MADE SELF SUFFICIENT BY SOCIAL NETWORKING FORUM</h3>
-                        <!-- <h5 class="reason-subtitle">We are humans</h5> -->
-                        <h5 class="reason-subtitle"></h5>
-
-                    </div>
-
-                    <div class="on-hover hidden-xs">
-                        <ul>
-
-                            <p> <li>Gadhaipada : Taluka Peth.  <br/>District : Nashik, Population 350.<br/>
-                            Scheme supported by : Storewell Company, Nashik.</li>
-                            </p>
-
-                            <p> <li>Torangan : Taluka Tryambakeshwar.  <br/> District : Nashik, Population 2100.<br/>
-                            Scheme supported by : Social Media youth.</li>
-                            </p>
-
-                            <p> <li>Shevkhandi, Fanas pada, Khotre pada : Taluka Peth Tehsil. <br/>District : Nashik, Population 2100.<br/>
-                            Scheme supported by : Indian Association, Dermatology association.</li>
-                            </p>
-
-
-                            <p><li>Vadpada: Taluka Peth. <br> Nashik Population – 600.  <br> Scheme Supported by : social media youngsters.</li>
-                            </p>
-
-                            <p><li>Hedpada: Taluka Tryambakeshwar.  <br>District - Nashik Population – 450
-                            <br>Scheme Supported by : Medecos in Nashik District.</li>
-                            </p>
-                        </ul>
-
-                    </div>
-                </div>
-
-            </div>
-
-
-            <div class="col-md-6">
-
-                <div class="reasons-col animate-onscroll fadeIn">
-
-                    <img src="assets/images/reasons/xt.png" alt="">
-
-                    <div class="reasons-titles">
-
-                        <a href="next.php"><h3 class="reasons-title" style="margin-top: -16px;">INSTEAD OF SEARCHING WATER IN JUNGLES, NOW WE CAN STUDY...BUT WHAT ABOUT OTHER VILLAGES?</h3></a>
-                        <!-- <h5 class="reason-subtitle">We are humans</h5> -->
-                        <h5 class="reason-subtitle"></h5>
-
-                    </div>
-
-                    <div class="on-hover hidden-xs">
-
-                        <p>Helping out some villages is not all. The forum has many more villages on the work list. However we need generous donors and corporations across the nations in order to raise funds. All we ask for is a whole hearted participation and help in any form. We call out to all the respected citizens from all the sectors and also to the corporate companies who could be of a great help with their CSR donations. Clean drinking water is the right of every person and we are committed to provide  it for them. Together We Can Bring Change. YES WE CAN !! Team SNF.</p>
-
-
-
-
-                    </div>
-
-
-                </div>
-
-            </div>
-
-
-        </div>
-
-
-
-    </div>
-
-
-</div> <!-- /.home-reasons -->
-
-
-
-
-
-
-
-
-
-
-<div class="section-home our-sponsors animate-onscroll fadeIn">
-
-    <div class="container">
-
-        <h2 class="title-style-1">Our Supporters <span class="title-under"></span></h2>
-
-        <!-- <ul class="owl-carousel list-unstyled list-sponsors">
-
-
-
-                  <!--<img src="assets/images/sponsors/svlogo.png" alt=""/><img src="assets/images/sponsors/svlogo.png" alt=""/>-->
-
-
-
-
-        <marquee>
-            <img src="assets/sponsors/1.jpg" height="90" width="150" alt=""/>
-            &nbsp;&nbsp;
-            <img src="assets/sponsors/2.jpg" height="90" width="150" alt=""/>
-            &nbsp;&nbsp;
-            <img src="assets/sponsors/3.jpg" height="90" width="150" alt=""/>
-            &nbsp;&nbsp;
-            <img src="assets/sponsors/4.jpg" height="90" width="150" alt=""/>
-            &nbsp;&nbsp;
-            <img src="assets/sponsors/5.jpg" height="90" width="150" alt=""/>
-            &nbsp;&nbsp;
-            <img src="assets/sponsors/6.jpg" height="90" width="150" alt=""/>
-            &nbsp;&nbsp;
-            <img src="assets/sponsors/7.jpg" height="90" width="150" alt=""/>
-            &nbsp;&nbsp;
-            <img src="assets/sponsors/8.jpg" height="90" width="150" alt=""/>
-        </marquee>
-    </div>
-
-</div> <!-- /.our-sponsors -->
-
-
-
-
-
-<footer class="main-footer">
-
-    <!-- <div class="footer-top">
-
-     </div>--->
-
-
-    <!--   <div class="footer-main">
-           <div class="container">
-
-              <div class="row">
-                   <div class="col-md-4">
-
-                       <div class="footer-col">
-
-                           <h4 class="footer-title">About us <span class="title-under"></span></h4>
-
-                           <div class="footer-content">
-
-                               <p>
-                                   <strong>Sadaka</strong> ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
-                               </p>
-
-                               <p>
-                                   ILorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
-                               </p>
-
-                           </div>
-
-                       </div>
-
-                   </div>
-
-                   <div class="col-md-4">
-
-                       <div class="footer-col">
-
-                           <h4 class="footer-title">LAST TWEETS <span class="title-under"></span></h4>
-
-                           <div class="footer-content">
-                               <ul class="tweets list-unstyled">
-                                   <li class="tweet">
-
-                                       20 Surprise Eggs, Kinder Surprise Cars 2 Thomas Spongebob Disney Pixar  http://t.co/fTSazikPd4
-
-                                   </li>
-
-                                   <li class="tweet">
-
-                                       20 Surprise Eggs, Kinder Surprise Cars 2 Thomas Spongebob Disney Pixar  http://t.co/fTSazikPd4
-
-                                   </li>
-
-                                   <li class="tweet">
-
-                                       20 Surprise Eggs, Kinder Surprise Cars 2 Thomas Spongebob Disney Pixar  http://t.co/fTSazikPd4
-
-                                   </li>
-
-                               </ul>
-                           </div>
-
-                       </div>
-
-                   </div>
-
-
-                   <div class="col-md-4">
-
-                       <div class="footer-col">
-
-                           <h4 class="footer-title">Contact us <span class="title-under"></span></h4>
-
-                           <div class="footer-content">
-
-                               <div class="footer-form">
-
-                                   <div class="footer-form" >
-
-                                   <form action="php/mail.php" class="ajax-form">
-
-                                       <div class="form-group">
-                                           <input type="text" name="name" class="form-control" placeholder="Name" required>
-                                       </div>
-
-                                        <div class="form-group">
-                                           <input type="email" name="email" class="form-control" placeholder="E-mail" required>
-                                       </div>
-
-                                       <div class="form-group">
-                                           <textarea name="message" class="form-control" placeholder="Message" required></textarea>
-                                       </div>
-
-                                       <div class="form-group alerts">
-
-                                           <div class="alert alert-success" role="alert">
-
-                                           </div>
-
-                                           <div class="alert alert-danger" role="alert">
-
-                                           </div>
-
-                                       </div>
-
-                                        <div class="form-group">
-                                           <button type="submit" class="btn btn-submit pull-right">Send message</button>
-                                       </div>
-
-                                   </form>
-
-                               </div>
-
-                               </div>
-                           </div>
-
-                       </div>
-
-                   </div>
-                   <div class="clearfix"></div>
-
-
-
-               </div>
-
-
-           </div>
-
-
-       </div>---->
-
-    <div class="footer-bottom">
-
-        <div class="container text-center">
-            Social Networking Forum @  2017 Designed And Developed By &nbsp;&nbsp; <a href="http://www.sumagoinfotech.com" target="_blank"><img src="assets/images/sumago.png" height="35" width="35" ></a>
-
-        </div>
-    </div>
-</footer> <!-- main-footer -->
-
-
-
-
-<!-- Donate Modal -->
-<div class="modal fade" id="donateModal" tabindex="-1" role="dialog" aria-labelledby="donateModalLabel" aria-hidden="true">
-
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="donateModalLabel">DONATE NOW</h4>
-            </div>
-            <div class="modal-body">
-
-
-
-
-
-                <form class="form-donation">
-                    <div id="div_print">
-
-                        <table class="table">
-                            <tr>
-                                <td rowspan="2">
-                                    <img src="assets/images/donate.jpg" height="160" width="150">
-
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>
-                                    <h4 class="title-style-1 text-center" style="margin-bottom: 14px;">Thank you for your wish to donate <span class="title-under"></span>  </h4>
-                                    <p align="center"><b>Social Networking Forum</b></p>
-                                    <p align="center"><li>Registerd Under Indian Public Trust Act 1950</li></p>
-                                    <p align="">Reg. No. F-15528 - Nashik</p>
-                                    <p align="center"><li>Societies Registration Act 1860</li></p>
-                                    <p align="">Reg. No. MAH/3041/N</p>
-                                    <p align="center"><li>Under Section 12AA Of The Income Tax Act 1961</li></p>
-                                    <p align="">1086/493/2016-17/7751</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="3">
-                                    <h4 class="title-style-1 text-center" style="margin-bottom: 14px;">Bank Account Details<span class="title-under"></span></h4>
-                                    <p align="center" style="margin-bottom: 14px;">Please Transfer Your Donation In Any One Of The Following Bank Account</p>
-                                </td>
-
-
-                            </tr>
-                        </table>
-
-                        <!--  <h5 class="title-style-1 text-center" style="font-size:14px">Bank Account Details<span class="title-under"></span></h5>			-->
-
-
-
-
-                        <div class="row">
-
-                            <div class="form-group col-md-12 ">
-                                <table class="table">
-                                    <tr>
-                                        <td>Bank Name </td>
-                                        <td>State Bank of India, Sharanpur Road Branch, Nashik 422002</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>Account Name </td>
-                                        <td>Social Networking Forum</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>Account Number </td>
-                                        <td>34691906559</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>Account Type </td>
-                                        <td>Current</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>IFSC Code</td>
-                                        <td>SBIN0060431</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>MICR Code</td>
-                                        <td>422002017</td>
-                                    </tr>
-
-                                </table>
-
-                                <br><br>
-
-                                <table class="table">
-                                    <tr>
-                                        <td>Bank Name </td>
-                                        <td>Bank of Maharashtra, Canada Corner Branch, Nashik 422002</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>Account Name </td>
-                                        <td>Social Networking Forum</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>Account Number </td>
-                                        <td>60252759927</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>Account Type </td>
-                                        <td>Saving</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>IFSC Code</td>
-                                        <td>MAHB0000672</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>MICR Code</td>
-                                        <td>422014004</td>
-                                    </tr>
-
-                                </table>
-
-                                <br><br>
-
-                                <table class="table">
-                                    <tr>
-                                        <td>Bank Name </td>
-                                        <td>Yes Bank, College Road Branch, Nashik 422002</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>Account Name </td>
-                                        <td>Social Networking Forum</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>Account Number </td>
-                                        <td>002194600000191</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>Account Type </td>
-                                        <td>Saving</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>IFSC Code</td>
-                                        <td>YESB0000021</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>MICR Code</td>
-                                        <td>422532002</td>
-                                    </tr>
-
-                                </table>
-
-
-                            </div>
-
-                        </div>
-
-
-
-
-
-
-
-
-                        <div class="row">
-
-                            <div class="form-group col-md-12">
-                                <button class="btn btn-primary pull-left" name="donateNow" type="button" class="ipt"   onClick="printdiv('div_print');" >PRINT</button>
-                                <a class="btn btn-primary pull-right"  name="donateNow" href="assets/SNF_Bank_Details.pdf" download >DOWNLOAD</a>
-                            </div>
-
-                            <!--<input name="b_print" type="button" class="ipt"   onClick="printdiv('div_print');" value=" Print ">-->
-
-
-                        </div>
-
-
-                    </div>
-                    <!--//Other content you wouldn't like to print-->
-
-
-                </form>
-
-                <!--<h1 style="Color:Red">The Div content which you want to print</h1>-->
-
-
-
-
-            </div>
-        </div>
-    </div>
-
-</div> <!-- /.modal -->
-
-
-
-
-
-<!--  Scripts
-================================================== -->
-
-<!-- jQuery -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<!--<script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.js"><\/script>')</script>-->
-
-<!-- Bootsrap javascript file -->
-<script src="assets/js/bootstrap.min.js"></script>
-
-<!-- owl carouseljavascript file -->
-<script src="assets/js/owl.carousel.min.js"></script>
-
-<!-- Template main javascript -->
-<script src="assets/js/main.js"></script>
-
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-<script>
-    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-        e.src='//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-    ga('create','UA-XXXXX-X');ga('send','pageview');
-</script>
-
+</div>
 </body>
 </html>
