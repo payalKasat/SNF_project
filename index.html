@@ -16,10 +16,10 @@
     <link rel="stylesheet" type="text/css" href="style2.css">
 
 </head>
-<body id="#home_page">
+<body id="home_page" data-spy="scroll" >
 
 <div class="page-header">
-    <img class="img-responsive snf_logo" src="images/snf_logo2.png" alt="SNF logo">
+    <a href="#home_page"><img class="img-responsive snf_logo" src="images/snf_logo2.png" alt="SNF logo"></a>
 </div>
 <!-- header ends here-->
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -33,19 +33,17 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About us</a></li>
-                <li><a href="#">Work</a></li>
+                <li class="active"><a href="#home_page" target="_blank">Home/About us</a></li>
+                <li><a href="work.html">What we do</a></li>
                 <li><a href="#">Team</a></li>
                 <li><a href="#">Blog</a></li>
+                <li><a href="#">Media/News</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">Facebook</a></li>
                 <li><a href="#">Twitter</a></li>
-
             </ul>
-
         </div>
     </div>
 </nav>
@@ -92,9 +90,9 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-<div class="container" id="about">
+<div class="container-fluid" id="about">
     <h2 class="text-center">About Us!</h2>
-    <hr style="height:5px; width:600px; background-color:#1f76bd">
+    <hr style="height:5px; width:40vw; background-color:#fdb642">
     <div class="panel-group">
         <div class="panel panel-default">
             <div class="panel-heading text-center">ABOUT SOCIAL NETWORKING FORUM.</div>
@@ -195,6 +193,32 @@
             </div>
         </div>
 
+    </div>
+</div>
+<!-- footer with contact-->
+<div class="footer container-fluid bg-grey">
+    <h2 class="text-center">Social Networking Forum Contact</h2>
+    <hr style="height:5px; width:40vw; background-color:#fdb642">
+    <div class="row">
+        <div class="col-sm-9 col-xs-12 address_side">
+            <p>Contact us and we'll get back to you within 24 hours.</p>
+            <p><span class="glyphicon glyphicon-map-marker"></span> 3rd Floor, Vitthal Charani Sankul,
+                Off Big Bazaar, College Road, Nashik, Maharashtra- 422005 .</p>
+            <p><span class="glyphicon glyphicon-phone"></span> 0253-2582930, +91 7588979986, +91 9421609987</p>
+            <p><span class="glyphicon glyphicon-envelope"></span>  socialforum10@gmail.com</p>
+            <p><a href="" target="_blank"><img class="social_media" src="images/facebook_icon.png"></a></p>
+            <p><a href="" target="_blank"><img class="social_media" src="images/twitter-icon-original.png"></a></p>
+        </div>
+        <div class="col-sm-3 col-xs-12 footer_nav">
+            <ul class="footer-ul">
+                <li class="active"><a href="#home_page">Home/About us</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Media/News</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
     </div>
 </div>
 </body>

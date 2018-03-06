@@ -8,9 +8,31 @@ body{
     word-spacing: 5px;
     letter-spacing: 1px;
 }
+
+.bg-grey{
+    padding: 50px 50px;
+    background-color: lightgray;
+}
+.page-header{
+    margin-top: 60px;
+}
+#myCarousel{
+    border-bottom: 5px solid #1f76bd;
+}
+.panel-body p{
+    text-indent: 20px;
+}
 p{
     color: #1f76bd;
-    text-indent: 30px;
+    font-size: 18px;
+}
+
+h2, h3{
+    color: #1f76bd;
+}
+
+h3{
+    padding: 30px;
 }
 .snf_logo{
     margin: auto;
@@ -32,4 +54,29 @@ p{
     color: #1f76bd;
     font-weight: bolder;
     font-size: 20px;
+}
+
+/*footer style--------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------*/
+.social_media{
+    width: 25px;
+    height: 25px;
+}
+
+.glyphicon{
+    font-size: 30px;
+}
+
+
+/* what we do page style-------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------*/
+.ongoing_project{
+    border-top: 15px solid #1f76bd;
+}
+
+.project_ul li>a{
+    font-weight: bold;
+}
+.nav-tabs>li.active>a{
+    #border: none;
 }
