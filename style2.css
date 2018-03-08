@@ -84,12 +84,19 @@ h3{
 
 /*---------------------------------------------------------our_work page style-----------------------------------------------------------
 ------------------------------------------------------ */
-
-._info_side{
-    height: 65vh;
-    border: 5px solid #1f76bd;
+#our_work{
+    margin: 50px;
 }
-
+._info_side{
+    height: 47vh;
+    padding: 0 2vh 2vh;
+}
+h2{
+    text-decoration: underline;
+    color: #fdb642;
+}
 .nav-side>li>a:focus, .nav>li>a:hover,.current_tab{
     background-color: #fdb642;
+    font-weight: bold;
+    font-size: 15px;
 }

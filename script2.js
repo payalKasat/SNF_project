@@ -122,7 +122,14 @@ var paragraph =['The year 2016 turned out to be rather unfortunate for the state
 var heading = ['Clean water Project','Shahid Jawan Fund','Educational Facilities','Health & Medical Projects',
     'Enviromental Conservation','Sport Projects','Orphanages and old home help on birthday'];
 function select_nav_info(){
-
+    $('.nav_1').ready(function () {
+        dynamic_nav_info_creation(paragraph[0],heading[0]);
+        $('.nav_1').addClass('current_tab');
+    });
+    // $('.nav_1').onload(function(){
+    //     dynamic_nav_info_creation(paragraph[0],heading[0]);
+    //     $(this).addClass('current_tab');
+    // });
     $('.nav_1').click(function(){
         dynamic_nav_info_creation(paragraph[0],heading[0]);
         $(this).addClass('current_tab');
