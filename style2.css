@@ -4,8 +4,8 @@ body{
     font-style: normal;
     font-family: Cambria;
     color:#fdb642;
-    line-height: 1.8;
-    word-spacing: 5px;
+    line-height: 1.5;
+    word-spacing: 3px;
     letter-spacing: 1px;
 }
 
@@ -79,4 +79,17 @@ h3{
 }
 .nav-tabs>li.active>a{
     #border: none;
+}
+
+
+/*---------------------------------------------------------our_work page style-----------------------------------------------------------
+------------------------------------------------------ */
+
+._info_side{
+    height: 65vh;
+    border: 5px solid #1f76bd;
+}
+
+.nav-side>li>a:focus, .nav>li>a:hover,.current_tab{
+    background-color: #fdb642;
 }
