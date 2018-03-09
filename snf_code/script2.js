@@ -1,9 +1,9 @@
 /* Created by Ashwini 3/4/2018 */
-// var project_image = [];
+
 
 $(document).ready(function() {
     select_nav_info();
-    // dynamic_project_img_creation(project_image);
+    //dynamic_project_img_creation(project_image);
     // Add smooth scrolling to all links in navbar + footer link
     $(".navbar a, footer a[href='#home_page']").on('click', function (event) {
         // Make sure this.hash has a value before overriding default behavior
@@ -37,9 +37,15 @@ $(document).ready(function() {
 /*----------------------- our work page script--------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------*/
 /* dynamically project images creating  */
-
-// function dynamic_project_img_creation(main_image) {
-//     var image =  $('<img src="'+ main_image +'" >')
+// var project_images = ["../images/snf_water_project/water_project1"];
+//
+// function dynamic_project_img_creation() {
+//     $('.thumbnail').empty();
+//     for(var i =0; i <= project_images.length ;i++){
+//         $('.thumbnail).append('<img src="' + project_images[i] + '">');
+//
+//     }
+//
 //
 // }
 /* dynamically information creation  */
