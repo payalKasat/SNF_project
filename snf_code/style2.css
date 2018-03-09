@@ -19,6 +19,10 @@ body{
 #myCarousel{
     border-bottom: 5px solid #1f76bd;
 }
+.carousel-inner>.item>img{
+    height: 80vh;
+    width: 100%;
+}
 .panel-body p{
     text-indent: 20px;
 }
@@ -92,11 +96,24 @@ h3{
     padding: 0 2vh 2vh;
 }
 h2{
-    text-decoration: underline;
+    #text-decoration: underline;
     color: #fdb642;
+    margin: 0 0 40px 0;
 }
 .nav-side>li>a:focus, .nav>li>a:hover,.current_tab{
     background-color: #fdb642;
     font-weight: bold;
     font-size: 15px;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+.thumbnail>img{
+    width: 400px;
+    height: 300px;
+    border: 1px solid #fdb642;
+
 }
