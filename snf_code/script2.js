@@ -2,6 +2,7 @@
 
 
 $(document).ready(function() {
+    default_project(heading[0],paragraph[0]);
     select_nav_info();
     //dynamic_project_img_creation(project_image);
     // Add smooth scrolling to all links in navbar + footer link
@@ -49,15 +50,6 @@ $(document).ready(function() {
 //
 // }
 /* dynamically information creation  */
-
-function dynamic_nav_info_creation(paragraph,header){
-    $('._info_side').empty();
-    $('.current_tab').removeClass('current_tab');
-    var info_h2 =$('<h2>'+ header +'</h2>').addClass('info_h2 text-center');
-    var info_p = $('<p>'+ paragraph+'</p>').addClass('info_p');
-    $('._info_side').append(info_h2,info_p);
-
-}
 
 var paragraph =['The year 2016 turned out to be rather unfortunate for the state of Maharashtra as famines' +
 ' hit the state as a large scale. The plight of the ruralites is heart wrenching as they wander about for ' +
@@ -134,46 +126,71 @@ var paragraph =['The year 2016 turned out to be rather unfortunate for the state
 
 var heading = ['Clean water Project','Shahid Jawan Fund','Educational Facilities','Health & Medical Projects',
     'Enviromental Conservation','Sport Projects','Orphanages and old home help on birthday'];
-function select_nav_info(){
+
+function dynamic_nav_info_creation(paragraph,header){
+    $('.current_div').hide();
+    $('._info_side').empty();
+    $('.current_tab').removeClass('current_tab');
+    // if(header = "Clean water Project"){
+    //     $('.water_project').show(1000);
+    // }
+    // else if(header="Shahid Jawan Fund"){
+    //     $('.shahid_javan_project').show(1000);
+    // }
+    var info_h2 =$('<h2>'+ header +'</h2>').addClass('info_h2 text-center');
+    var info_p = $('<p>'+ paragraph+'</p>').addClass('info_p');
+    $('._info_side').append(info_h2,info_p);
+
+}
+
+function default_project(header, paragraph) {
     $('.nav_1').ready(function () {
-        dynamic_nav_info_creation(paragraph[0],heading[0]);
-        $('.nav_1').addClass('current_tab');
+        $('.water_project').show().addClass('current_div');
+        var info_h2 =$('<h2>'+ header +'</h2>').addClass('info_h2 text-center');
+        var info_p = $('<p>'+ paragraph+'</p>').addClass('info_p');
+        $('._info_side').append(info_h2,info_p);        $('.nav_1').addClass('current_tab');
     });
-    // $('.nav_1').onload(function(){
-    //     dynamic_nav_info_creation(paragraph[0],heading[0]);
-    //     $(this).addClass('current_tab');
-    // });
+}
+function select_nav_info(){
+
     $('.nav_1').click(function(){
         dynamic_nav_info_creation(paragraph[0],heading[0]);
+        $('.water_project').show().addClass('current_div');
         $(this).addClass('current_tab');
     });
     $('.nav_2').click(function(){
         dynamic_nav_info_creation(paragraph[1],heading[1]);
+        $('.shahid_javan_project').show().addClass('current_div');
         $(this).addClass('current_tab');
 
     });
     $('.nav_3').click(function(){
         dynamic_nav_info_creation(paragraph[2],heading[2]);
+        $('.education_project').show().addClass('current_div');
         $(this).addClass('current_tab');
 
     });
     $('.nav_4').click(function(){
         dynamic_nav_info_creation(paragraph[3],heading[3]);
+        $('.health_project').show(1000).addClass('current_div');
         $(this).addClass('current_tab');
 
     });
     $('.nav_5').click(function(){
         dynamic_nav_info_creation(paragraph[4],heading[4]);
+        $('.education_project').show(1000);
         $(this).addClass('current_tab');
 
     });
     $('.nav_6').click(function(){
         dynamic_nav_info_creation(paragraph[5],heading[5]);
+        $('.sport_project').show(1000);
         $(this).addClass('current_tab');
 
     });
     $('.nav_7').click(function(){
         dynamic_nav_info_creation(paragraph[6],heading[6]);
+        $('.orphanage_project').show(1000);
         $(this).addClass('current_tab');
 
     });

@@ -117,3 +117,8 @@ h2{
     border: 1px solid #fdb642;
 
 }
+
+.water_project,.education_project,.orphanage_project,
+.health_project,.sport_project,.shahid_javan_project,.environmental_project{
+    display: none;
+}
