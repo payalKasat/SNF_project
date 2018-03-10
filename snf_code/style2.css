@@ -126,9 +126,10 @@ h2{
     border-radius: 0;
 }
 .thumbnail>img{
-    width: 400px;
-    height: 400px;
-    border: 1px solid #fdb642;
+    width: 330px;
+    height:270px;
+    border: 1px solid darkgray;
+    box-shadow: 5px 5px 5px gray;
 
 }
 
