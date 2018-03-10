@@ -1,4 +1,7 @@
 /*Created by Ashwini 3/4/2018*/
+ul >li{
+    font-size: 20px;
+}
 
 body{
     font-style: normal;
@@ -8,10 +11,15 @@ body{
     word-spacing: 3px;
     letter-spacing: 1px;
 }
-
+.page-header{
+    border-bottom: 5px solid #fdb642;
+}
+#about{
+    border-top: 5px solid #1f76bd;
+}
 .bg-grey{
     padding: 50px 50px;
-    background-color: lightgray;
+    background-color: black;
 }
 .page-header{
     margin-top: 60px;
@@ -60,6 +68,10 @@ h3{
     font-size: 20px;
 }
 
+.success_div{
+    padding: 30px;
+}
+
 /*footer style--------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------*/
 .social_media{
@@ -70,7 +82,9 @@ h3{
 .glyphicon{
     font-size: 30px;
 }
-
+.footer{
+    padding: 30px;
+}
 
 /* what we do page style-------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------*/
@@ -103,7 +117,7 @@ h2{
 .nav-side>li>a:focus, .nav>li>a:hover,.current_tab{
     background-color: #fdb642;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .thumbnail {
@@ -113,7 +127,7 @@ h2{
 }
 .thumbnail>img{
     width: 400px;
-    height: 300px;
+    height: 400px;
     border: 1px solid #fdb642;
 
 }

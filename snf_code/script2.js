@@ -172,25 +172,25 @@ function select_nav_info(){
     });
     $('.nav_4').click(function(){
         dynamic_nav_info_creation(paragraph[3],heading[3]);
-        $('.health_project').show(1000).addClass('current_div');
+        $('.health_project').show().addClass('current_div');
         $(this).addClass('current_tab');
 
     });
     $('.nav_5').click(function(){
         dynamic_nav_info_creation(paragraph[4],heading[4]);
-        $('.education_project').show(1000);
+        $('.environmental_project').show().addClass('current_div');
         $(this).addClass('current_tab');
 
     });
     $('.nav_6').click(function(){
         dynamic_nav_info_creation(paragraph[5],heading[5]);
-        $('.sport_project').show(1000);
+        $('.sport_project').show().addClass('current_div');
         $(this).addClass('current_tab');
 
     });
     $('.nav_7').click(function(){
         dynamic_nav_info_creation(paragraph[6],heading[6]);
-        $('.orphanage_project').show(1000);
+        $('.orphanage_project').show().addClass('current_div');
         $(this).addClass('current_tab');
 
     });
