@@ -31,7 +31,19 @@ body{
     height: 80vh;
     width: 100%;
 }
-.panel-body p{
+.donate{
+    height: 40px;
+    border: 1px solid #1f76bd;
+    border-radius: 10px;
+    position: fixed;
+    top:10vh;
+    right: 0;
+    color: #1f76bd;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 1;
+}
+p{
     text-indent: 20px;
 }
 p{
@@ -75,15 +87,21 @@ h3{
 /*footer style--------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------*/
 .social_media{
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
 }
 
 .glyphicon{
     font-size: 30px;
 }
+.contact_ul li{
+    list-style-type: none;
+    color: #1f76bd;
+}
 .footer{
     padding: 30px;
+    border-top: 5px solid #1f76bd;
+
 }
 
 /* what we do page style-------------------------------------------------------------------------------------------------------------
@@ -102,9 +120,7 @@ h3{
 
 /*---------------------------------------------------------our_work page style-----------------------------------------------------------
 ------------------------------------------------------ */
-#our_work{
-    margin: 50px;
-}
+
 ._info_side{
     height: 47vh;
     padding: 0 2vh 2vh;
@@ -132,8 +148,17 @@ h2{
     box-shadow: 5px 5px 5px gray;
 
 }
-
+.project_div{
+    margin-top: 50px;
+}
 .water_project,.education_project,.orphanage_project,
 .health_project,.sport_project,.shahid_javan_project,.environmental_project{
     display: none;
+}
+
+/*-------------------------------------------------------------------next work page style----------------------------------------------------------------
+------------------------------------------------------*/
+
+.work_list{
+    margin-top: 50px;
 }
