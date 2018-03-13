@@ -195,5 +195,9 @@ function select_nav_info(){
 
     });
 
+}
 
+
+function dynamicaly_team_member_creation() {
+    
 }
