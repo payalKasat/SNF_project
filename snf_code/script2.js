@@ -4,7 +4,7 @@
 $(document).ready(function() {
     default_project(heading[0],paragraph[0]);
     select_nav_info();
-    //dynamic_project_img_creation(project_image);
+    dynamicaly_team_member_creation();
     // Add smooth scrolling to all links in navbar + footer link
     $(".navbar a, footer a[href='#home_page']").on('click', function (event) {
         // Make sure this.hash has a value before overriding default behavior
@@ -30,9 +30,6 @@ $(document).ready(function() {
             $(this).tab('show');
         });
 });
-
-
-
 
 
 /*----------------------- our work page script--------------------------------------------------------------------------------------------------------------
@@ -131,12 +128,6 @@ function dynamic_nav_info_creation(paragraph,header){
     $('.current_div').hide();
     $('._info_side').empty();
     $('.current_tab').removeClass('current_tab');
-    // if(header = "Clean water Project"){
-    //     $('.water_project').show(1000);
-    // }
-    // else if(header="Shahid Jawan Fund"){
-    //     $('.shahid_javan_project').show(1000);
-    // }
     var info_h2 =$('<h2>'+ header +'</h2>').addClass('info_h2 text-center');
     var info_p = $('<p>'+ paragraph+'</p>').addClass('info_p');
     $('._info_side').append(info_h2,info_p);
@@ -198,6 +189,18 @@ function select_nav_info(){
 }
 
 
+var teamArray = {
+    team:[
+        'images/'
+    ]
+};
 function dynamicaly_team_member_creation() {
+    var team_image = $('<img src="">').addClass('team_img');
+    // $('.team-img-div').
+    //
+    // for (var i =0 ;i<= teamArray; i++){
+    //
+    //
+    // }
     
 }
