@@ -189,18 +189,18 @@ function select_nav_info(){
 }
 
 
-var teamArray = {
-    team:[
-        'images/'
-    ]
-};
-function dynamicaly_team_member_creation() {
-    var team_image = $('<img src="">').addClass('team_img');
-    // $('.team-img-div').
-    //
-    // for (var i =0 ;i<= teamArray; i++){
-    //
-    //
-    // }
-    
-}
+// var teamArray = {
+//     team:[
+//         'images/team/Pramod'
+//     ]
+// };
+// function dynamicaly_team_member_creation() {
+//     var team_image = $('<img src="">').addClass('team_img');
+//     // $('.team-img-div').
+//     //
+//     // for (var i =0 ;i<= teamArray; i++){
+//     //
+//     //
+//     // }
+//
+// }
