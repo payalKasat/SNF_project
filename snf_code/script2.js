@@ -4,7 +4,7 @@
 $(document).ready(function() {
     default_project(heading[0],paragraph[0]);
     select_nav_info();
-    dynamicaly_team_member_creation();
+    dynamic_team_member_creation();
     // Add smooth scrolling to all links in navbar + footer link
     $(".navbar a, footer a[href='#home_page']").on('click', function (event) {
         // Make sure this.hash has a value before overriding default behavior
@@ -189,18 +189,178 @@ function select_nav_info(){
 }
 
 
-// var teamArray = {
-//     team:[
-//         'images/team/Pramod'
-//     ]
-// };
-// function dynamicaly_team_member_creation() {
-//     var team_image = $('<img src="">').addClass('team_img');
-//     // $('.team-img-div').
-//     //
-//     // for (var i =0 ;i<= teamArray; i++){
-//     //
-//     //
-//     // }
-//
-// }
+var teamArray = {
+
+    team:[
+        '1 Pramod Gaikwad - Founder, Social Networking Forum.jpg',
+        '02 Dr Uttam Fartale.png',
+        '03 Dr. Pankaj Bhadane.jpg',
+        '4 Er. Prashant Bachhav.jpg',
+        '05 Ramdas Shinde.png',
+        '06 Gulab Aaher.png',
+        '07 Ambika Takalkar.jpg',
+        '08 Shrikant Dhone.jpg',
+        '09 Vaibhav Kambale.jpg',
+        '10 Vaishali Kulkarni.jpg',
+        '11 Nilesh Gaikwad.png',
+        '12 Adv.Arundhati Dumbare.jpg',
+        '13 Dr Yogesh Joshi - Nashik.jpg',
+        '14 Dinesh and Suvarna Joshi - Nashik.jpg',
+        '15 Ashish Choursiya, Nashik.jpg',
+        '16 Dr Madhavi Muthal.jpg',
+        '17 Vivek Shinde Ahemednagar.jpg',
+        '18 Sharad Thombare.png',
+        '19 Sandhya Chougule - Mumbai.jpg',
+        '20 Smita Chavhanke.jpg',
+        '21 Pratibha Choudhari - Pune.jpg',
+        '22 aArchana Jadhav Kushare.jpg',
+        '23 Archana Gaikwad.jpg',
+        '24 Datta Patil.png',
+        '25 Sachin.png',
+        '26 Laxman Kokane.png',
+        '27 Amod Patil.png',
+        '28 Sharad Sonawane.jpg',
+        '29 Sunil Sawant -.jpg',
+        '30 Pramod Bhadane.jpg',
+        '31 Rajesh Jadhav.jpg',
+        '32 Shashank Mhatre.jpg',
+        '33 Dilip Dude.jpg',
+        '34 Pramod Patil.JPG',
+        '35 Mahesh Deore.jpg',
+        '36 Avinash Tambe.jpg',
+        '37 Nilesh Kalaskar.jpg',
+        '38 Bharat Rana.jpg',
+        '39 Dnyaneshwar Patil.jpg',
+        '40 Ratnakar Gore.jpg',
+        '41 Deodatta Borase.jpg',
+        '42 Rahul Gadgil.jpg',
+        '43 Sandeep Battase.jpg',
+        '44 Sumit Mehetre.png',
+        '45 Vaibhav Tupe.jpg',
+        '46 Rupesh Gunjegaonkar.jpg',
+        '47 Mitesh Mutha.jpg',
+        '48 Sachin Patil.jpg',
+        '49 Vinayak Mali.jpg',
+        '50 Sandeep Ramname.jpg',
+        '51 Rahul Jinde.jpg',
+        '52 Amol Dhondage.jpg',
+        '53 Ashish Jadhav.jpg',
+        '54 Balaji Biradar.jpg',
+        '55 Pritam Dumbare.jpg',
+        '56 Darshan Gaikwad.jpg',
+        '57 Rahul Borase.jpg',
+        '1 Dr Sarala Sohnandani.jpg',
+        '2 Dr Vishal Pawar.jpg',
+        '3 Dr Samir Pawar.jpg',
+        '4 Dr Manish Deore.png',
+        '5 Dr Milind Borse.jpg',
+        '6 Dr. Prashant.jpg',
+        '7 Dr Nitin Surana.jpg',
+        '8 Mr. And Mrs Pimprikar.jpg',
+        '9 Dr Kshama Aghor.jpg',
+        '10 Dr Hemraj Dhondage.jpg',
+        '11 Dr kavita Gadekar.jpg',
+        '12 Dr Hemant Borase.png',
+        '13 Dr Milind Gangurde.png',
+        '14 Dr Nitin chitalkar.png',
+        '15 Dr Pankaj Devare.png',
+        '16 Dr Pramod Ahire.png',
+        '17 Dr Prashant Sonawane.png',
+        '18 Dr Rajesh Patil.png',
+        '19 Dr Sandeep Aaher.png',
+        '19 Dr Sandeep gunde.png',
+        '20 Dr Sandeep Pasnsare.png',
+        '21 Dr Smita Raut.png',
+        '22 Dr Sujata Kulkarni.png',
+        '23 Dr Vinit Devare.png',
+        '24 Dr Vinod Chaudhari.png',
+        '25 Sunil Baravkar.png',
+        '26 Vaibhav More.png',
+        '27 Vikrant Mane.png',
+        '28 Dr Pramod Ahire.png',
+        '29 Yogesh Kadam.png',
+        '30 Dr Sarika devare.png',
+        '31 Atul ahire.png',
+        '32 Dr Amol Patil.png',
+        '33 Dr Ganesh Pathade.png',
+        '34 Dr Maruti Ghuge.jpg',
+        '35 Dr Milind Pimprikar.jpg',
+        '36 Dr Varsha Baste.jpg',
+        '37 Dr Yogesh Gosavi.jpg',
+        '38 Dr Vishal Pawar.png'
+    ],
+
+
+    team_member_name:[
+        'Pramod Gaikwad - Founder, Social Networking Forum',
+        '02 Dr Uttam Fartale',
+        '03 Dr. Pankaj Bhadane',
+        '4 Er. Prashant Bachhav',
+        '05 Ramdas Shinde',
+        '06 Gulab Aaher',
+        '07 Ambika Takalkar',
+        '08 Shrikant Dhone',
+        '09 Vaibhav Kambale',
+        '10 Vaishali Kulkarni',
+        '11 Nilesh Gaikwad',
+        '12 Adv.Arundhati Dumbare',
+        '13 Dr Yogesh Joshi - Nashik',
+        '14 Dinesh and Suvarna Joshi - Nashik',
+        '15 Ashish Choursiya, Nashik',
+        '16 Dr Madhavi Muthal',
+        '17 Vivek Shinde Ahemednagar',
+        '18 Sharad Thombare',
+        '19 Sandhya Chougule - Mumbai',
+        '20 Smita Chavhanke',
+        '21 Pratibha Choudhari - Pune',
+        '22 aArchana Jadhav Kushare',
+        '23 Archana Gaikwad',
+        '24 Datta Patil',
+        '25 Sachin',
+        '26 Laxman Kokane',
+        '27 Amod Patil',
+        '28 Sharad Sonawane',
+        '29 Sunil Sawant -',
+        '30 Pramod Bhadane',
+        '31 Rajesh Jadhav',
+        '32 Shashank Mhatre',
+        '33 Dilip Dude',
+        '34 Pramod Patil',
+        '35 Mahesh Deore',
+        '36 Avinash Tambe',
+        '37 Nilesh Kalaskar',
+        '38 Bharat Rana',
+        '39 Dnyaneshwar Patil',
+        '40 Ratnakar Gore',
+        '41 Deodatta Borase',
+        '42 Rahul Gadgil',
+        '43 Sandeep Battase',
+        '44 Sumit Mehetre',
+        '45 Vaibhav Tupe',
+        '46 Rupesh Gunjegaonkar',
+        '47 Mitesh Mutha',
+        '48 Sachin Patil',
+        '49 Vinayak Mali',
+        '50 Sandeep Ramname',
+        '51 Rahul Jinde',
+        '52 Amol Dhondage',
+        '53 Ashish Jadhav',
+        '54 Balaji Biradar',
+        '55 Pritam Dumbare',
+        '56 Darshan Gaikwad',
+        '57 Rahul Borase'
+    ]
+};
+function dynamic_team_member_creation() {
+    //var team_image = ('<img src="../images/team/" ">');
+
+    var team_member_length = teamArray['team'].length;
+    //var team_member_medical_length = teamArray['medical_N_health'].length;
+    for(var j = 0; j <= team_member_length; j++) {               //loop for appending team member's images to team-div
+        var team_member_h4 = $('<h4></h4>');
+        $('.member' + j ).append('<img src="../images/team/' + teamArray['team'][j] + '">',team_member_h4);     //append images to div
+
+    }
+
+
+}
