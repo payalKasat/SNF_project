@@ -348,7 +348,46 @@ var teamArray = {
         '54 Balaji Biradar',
         '55 Pritam Dumbare',
         '56 Darshan Gaikwad',
-        '57 Rahul Borase'
+        '57 Rahul Borase',
+        'Dr Sarala Sohnandani',
+        '2 Dr Vishal Pawar',
+        '3 Dr Samir Pawar',
+        '4 Dr Manish Deore',
+        '5 Dr Milind Borse',
+        '6 Dr. Prashant',
+        '7 Dr Nitin Surana',
+        '8 Mr. And Mrs Pimprikar',
+        '9 Dr Kshama Aghor',
+        '10 Dr Hemraj Dhondage',
+        '11 Dr kavita Gadekar',
+        '12 Dr Hemant Borase',
+        '13 Dr Milind Gangurde',
+        '14 Dr Nitin chitalkar',
+        '15 Dr Pankaj Devare',
+        '16 Dr Pramod Ahire',
+        '17 Dr Prashant Sonawane',
+        '18 Dr Rajesh Patil',
+        '19 Dr Sandeep Aaher',
+        '19 Dr Sandeep gunde',
+        '20 Dr Sandeep Pasnsare',
+        '21 Dr Smita Raut',
+        '22 Dr Sujata Kulkarni',
+        '23 Dr Vinit Devare',
+        '24 Dr Vinod Chaudhari',
+        '25 Sunil Baravkar',
+        '26 Vaibhav More',
+        '27 Vikrant Mane',
+        '28 Dr Pramod Ahire',
+        '29 Yogesh Kadam',
+        '30 Dr Sarika devare',
+        '31 Atul ahire',
+        '32 Dr Amol Patil',
+        '33 Dr Ganesh Pathade',
+        '34 Dr Maruti Ghuge',
+        '35 Dr Milind Pimprikar',
+        '36 Dr Varsha Baste',
+        '37 Dr Yogesh Gosavi',
+        '38 Dr Vishal Pawar'
     ]
 };
 function dynamic_team_member_creation() {
@@ -357,8 +396,9 @@ function dynamic_team_member_creation() {
     var team_member_length = teamArray['team'].length;
     //var team_member_medical_length = teamArray['medical_N_health'].length;
     for(var j = 0; j <= team_member_length; j++) {               //loop for appending team member's images to team-div
-        var team_member_h4 = $('<h4></h4>');
-        $('.member' + j ).append('<img src="../images/team/' + teamArray['team'][j] + '">',team_member_h4);     //append images to div
+        //var team_member_h4 = $('<h4></h4>');
+        $('.member' + j ).append('<img src="../images/team/' + teamArray['team'][j] + '">',
+            '<h4></h4>');     //append images to div
 
     }
 
