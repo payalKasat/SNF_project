@@ -407,7 +407,6 @@ var teamArray = {
         '4 Laxmikant Powanikar - Qtar.png',
         '5 Kishor Gore USA.jpg',
         '6 Dr. Jaydip Nikam Nashik.png',
-        '7 Dr Appasaheb Pawar.jpg'
     ],
     other_states:[
         '1 Dr. T Chandrkant - Bhopal.jpg',
@@ -437,8 +436,7 @@ function dynamic_team_member_creation() {
     $('.team-div').show();
     var team_member_length = teamArray['team'].length;
     for(var j = 0; j <= team_member_length; j++) {               //loop for appending team member's images to team-div
-        $('.member' + j ).append('<img src="../images/team/' + teamArray['team'][j] + '">',
-            '<h4></h4>');     //append images to div
+        $('.member' + j ).append('<img src="../images/team/' + teamArray['team'][j] + '">');     //append images to div
     }
 }
 //team creation function ends here
@@ -449,8 +447,7 @@ function dynamic_mentor_member_creation() {
     $('.mentor-div').show();
     var mentor_member_length = teamArray['mentor'].length;
     for(var j = 0; j <= mentor_member_length; j++) {               //loop for appending mentor member's images to mentor-div
-        $('.mentor' + j ).append('<img src="../images/team/Mentors/' + teamArray['mentor'][j] + '">',
-            '<h4></h4>');     //append images to div
+        $('.mentor' + j ).append('<img src="../images/team/Mentors/' + teamArray['mentor'][j] + '">');     //append images to div
     }
 }
 //mentor creation function ends here
@@ -463,8 +460,7 @@ function dynamic_NRI_member_creation() {
     $('.NRI-div').show();
     var mentor_member_length = teamArray['NRI'].length;
     for(var j = 0; j <= mentor_member_length; j++) {               //loop for appending mentor member's images to mentor-div
-        $('.NRI' + j ).append('<img src="../images/team/NRI%20Members/' + teamArray['NRI'][j] + '">',
-            '<h4></h4>');     //append images to div
+        $('.NRI' + j ).append('<img src="../images/team/NRI%20Members/' + teamArray['NRI'][j] + '">');     //append images to div
     }
 }
 //NRI creation function ends here
@@ -475,8 +471,7 @@ function dynamic_state_member_creation() {
     $('.state-div').show();
     var mentor_member_length = teamArray['other_states'].length;
     for(var j = 0; j <= mentor_member_length; j++) {               //loop for appending mentor member's images to mentor-div
-        $('.state' + j ).append('<img src="../images/team/Members%20from%20other%20states/' + teamArray['other_states'][j] + '">',
-            '<h4></h4>');     //append images to div
+        $('.state' + j ).append('<img src="../images/team/Members%20from%20other%20states/' + teamArray['other_states'][j] + '">');     //append images to div
     }
 }
 
