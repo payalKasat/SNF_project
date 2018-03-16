@@ -5,6 +5,19 @@ $(document).ready(function() {
     default_project(heading[0],paragraph[0]);
     select_nav_info();
     dynamic_team_member_creation();
+
+    $('.team').click(function () {
+        dynamic_team_member_creation();
+    });
+    $('.mentor').click(function () {
+        dynamic_mentor_member_creation();
+    });
+    $('.NRI').click(function () {
+       dynamic_NRI_member_creation();
+    });
+    $('.state').click(function () {
+        dynamic_state_member_creation();
+    });
     // Add smooth scrolling to all links in navbar + footer link
     $(".navbar a, footer a[href='#home_page']").on('click', function (event) {
         // Make sure this.hash has a value before overriding default behavior
@@ -289,8 +302,6 @@ var teamArray = {
         '37 Dr Yogesh Gosavi.jpg',
         '38 Dr Vishal Pawar.png'
     ],
-
-
     team_member_name:[
         'Pramod Gaikwad - Founder, Social Networking Forum',
         '02 Dr Uttam Fartale',
@@ -388,19 +399,85 @@ var teamArray = {
         '36 Dr Varsha Baste',
         '37 Dr Yogesh Gosavi',
         '38 Dr Vishal Pawar'
+    ],
+    mentor:[
+        '1 Dr. Vinay Sahastrbuddhe, Delhi.jpg',
+        '2 Jeevan Sonawane - Nagpur.jpg',
+        '3 Rajesh Bakshi - Muscut.jpg',
+        '4 Laxmikant Powanikar - Qtar.png',
+        '5 Kishor Gore USA.jpg',
+        '6 Dr. Jaydip Nikam Nashik.png',
+        '7 Dr Appasaheb Pawar.jpg'
+    ],
+    other_states:[
+        '1 Dr. T Chandrkant - Bhopal.jpg',
+        '2 Sanjay Barve - Goa.jpg',
+        '3 Aditi Bakshi - Hyderabad.jpg',
+        '4 Dr Prajaktha Jirati Madhy Pradesh.png',
+        '5 Dipali Ahire Ayre - Gujrath.jpg',
+        '6 Ram Ture Tamilnadu.jpg',
+        '7 Sharvari Sawant Gujrath.jpg'
+    ],
+    NRI:[
+        '1 Sanjay Mane dubai.jpg',
+        '2 Mukul Agashe - Singapur.jpg',
+        '3 Sandeep Gangarde - Gulf.jpg',
+        '4 Sandeep Rane - USA.jpg',
+        '5 Rajendra Gill - UK.jpg',
+        '6 Nandkumar Desai - Dubai.jpg',
+        '7 Dr Rahul Gosavi, UK.jpg',
+        '8 Yogesh Kasat, USA.jpg'
     ]
-};
-function dynamic_team_member_creation() {
-    //var team_image = ('<img src="../images/team/" ">');
 
+};
+//members images array
+function dynamic_team_member_creation() {
+    $('.mentor-img-div,.NRI-img-div,.state-img-div').empty();
+    $('.mentor-div,.NRI-div,.state-div').hide();
+    $('.team-div').show();
     var team_member_length = teamArray['team'].length;
-    //var team_member_medical_length = teamArray['medical_N_health'].length;
     for(var j = 0; j <= team_member_length; j++) {               //loop for appending team member's images to team-div
-        //var team_member_h4 = $('<h4></h4>');
         $('.member' + j ).append('<img src="../images/team/' + teamArray['team'][j] + '">',
             '<h4></h4>');     //append images to div
-
     }
-
-
 }
+//team creation function ends here
+
+function dynamic_mentor_member_creation() {
+    $('.team-img-div,.state-img-div,.NRI-img-div').empty();
+    $('.team-div,.NRI-div,.state-div').hide();
+    $('.mentor-div').show();
+    var mentor_member_length = teamArray['mentor'].length;
+    for(var j = 0; j <= mentor_member_length; j++) {               //loop for appending mentor member's images to mentor-div
+        $('.mentor' + j ).append('<img src="../images/team/Mentors/' + teamArray['mentor'][j] + '">',
+            '<h4></h4>');     //append images to div
+    }
+}
+//mentor creation function ends here
+
+function dynamic_NRI_member_creation() {
+    $('.team-img-div,.mentor-img-div,.state-img-div').empty();
+    $('.team-div,.mentor-div,.state-div').hide();
+    //$('.mentor-img-div').empty();
+    //$('.mentor-div').hide();
+    $('.NRI-div').show();
+    var mentor_member_length = teamArray['NRI'].length;
+    for(var j = 0; j <= mentor_member_length; j++) {               //loop for appending mentor member's images to mentor-div
+        $('.NRI' + j ).append('<img src="../images/team/NRI%20Members/' + teamArray['NRI'][j] + '">',
+            '<h4></h4>');     //append images to div
+    }
+}
+//NRI creation function ends here
+
+function dynamic_state_member_creation() {
+    $('.team-img-div,.mentor-img-div,.NRI-img-div').empty();
+    $('.team-div,.mentor-div,.NRI-div').hide();
+    $('.state-div').show();
+    var mentor_member_length = teamArray['other_states'].length;
+    for(var j = 0; j <= mentor_member_length; j++) {               //loop for appending mentor member's images to mentor-div
+        $('.state' + j ).append('<img src="../images/team/Members%20from%20other%20states/' + teamArray['other_states'][j] + '">',
+            '<h4></h4>');     //append images to div
+    }
+}
+
+//state creation function ends here

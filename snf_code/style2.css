@@ -120,7 +120,9 @@ h3{
 
 /*---------------------------------------------------------our_work page style-----------------------------------------------------------
 ------------------------------------------------------ */
-
+.nav-side{
+    border-bottom: 5px solid #1f76bd;
+}
 ._info_side{
     height: 47vh;
     padding: 0 2vh 2vh;
@@ -165,13 +167,13 @@ h2{
 
 /*--------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------*/
-.team-img-div{
+.team-img-div,.mentor-img-div,.NRI-img-div,.state-img-div{
     height: 25vh;
     margin-bottom: 10vh;
     #border: 1px solid;
     box-sizing: border-box;
 }
-.team-img-div>img{
+.team-img-div>img,.mentor-img-div>img,.NRI-img-div>img,.state-img-div>img{
     width: 100%;
     height: 100%;
     box-shadow: 5px 5px 5px gray;
@@ -179,7 +181,7 @@ h2{
 }
 .team_member_div{
     margin-top: 50px;
-    border-top: 5px solid #1f76bd;
+    #border-top: 5px solid #1f76bd;
 }
 .team_nav{
     position: relative;
