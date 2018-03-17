@@ -413,13 +413,12 @@ var teamArray = {
         '6 Dr. Jaydip Nikam Nashik.png',
     ],
     mentor_name:[
-        'Dr. Vinay Sahastrbuddhe, Delhi',
+        'Dr. Vinay Sahastrbuddhe - Delhi',
         'Jeevan Sonawane - Nagpur',
         'Rajesh Bakshi - Muscut',
         'Laxmikant Powanikar - Qtar',
-        'Kishor Gore USA',
-        'Dr. Jaydip Nikam Nashik',
-        'Dr Appasaheb Pawar.jpg'
+        'Kishor Gore - USA',
+        'Dr. Jaydip Nikam - Nashik',
     ],
     other_states:[
         '1 Dr. T Chandrkant - Bhopal.jpg',
@@ -434,10 +433,10 @@ var teamArray = {
         'Dr. T Chandrkant - Bhopal',
         'Sanjay Barve - Goa',
         'Aditi Bakshi - Hyderabad',
-        'Dr Prajaktha Jirati Madhy Pradesh',
+        'Dr Prajaktha Jirati - Madhy Pradesh',
         'Dipali Ahire Ayre - Gujrath',
-        'Ram Ture Tamilnadu',
-        'Sharvari Sawant Gujrath'
+        'Ram Ture - Tamilnadu',
+        'Sharvari Sawant - Gujrath'
     ],
     NRI:[
         '1 Sanjay Mane dubai.jpg',
@@ -447,17 +446,17 @@ var teamArray = {
         '5 Rajendra Gill - UK.jpg',
         '6 Nandkumar Desai - Dubai.jpg',
         '7 Dr Rahul Gosavi, UK.jpg',
-        '8 Yogesh Kasat, USA.jpg'
+        'yk.jpg'
     ],
     NRI_name:[
-        'Sanjay Mane dubai',
+        'Sanjay Mane - Dubai',
         'Mukul Agashe - Singapur',
         'Sandeep Gangarde - Gulf',
         'Sandeep Rane - USA',
         'Rajendra Gill - UK',
         'Nandkumar Desai - Dubai',
-        'Dr Rahul Gosavi, UK',
-        'Yogesh Kasat, USA'
+        'Dr Rahul Gosavi - UK',
+        'Yogesh Kasat - USA'
     ]
 
 };
