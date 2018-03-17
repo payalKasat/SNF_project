@@ -2,7 +2,9 @@
 ul >li{
     font-size: 20px;
 }
-
+h4{
+    color: #1f76bd;
+}
 body{
     font-style: normal;
     font-family: Cambria;
@@ -38,10 +40,11 @@ body{
     position: fixed;
     top:10vh;
     right: 0;
-    color: #1f76bd;
+    color: #fdb642;
     font-size: 20px;
     font-weight: bold;
     z-index: 1;
+    background-color: #1f76bd;
 }
 p{
     text-indent: 20px;
@@ -116,7 +119,9 @@ h3{
 .nav-tabs>li.active>a{
     #border: none;
 }
-
+.social_ul>li{
+    display: inline-block;
+}
 
 /*---------------------------------------------------------our_work page style-----------------------------------------------------------
 ------------------------------------------------------ */
@@ -167,7 +172,7 @@ h2{
 
 /*--------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------*/
-.team-img-div,.mentor-img-div,.NRI-img-div,.state-img-div{
+.team-img-div,.mentor-img-div,.NRI-img-div,.state-img-div,.founder-img{
     height: 25vh;
     margin-bottom: 10vh;
     #border: 1px solid;
@@ -189,8 +194,13 @@ h2{
 }
 
 .vision_mission_div{
-    background-color: #fdb642;
+    background-color: lightgray;
     margin: 0;
     border-top: 5px solid #1f76bd;
 }
-
+.team-div,.NRI-div,.state-div,.mentor-div{
+    display: none;
+}
+.team_member_div>h4{
+    display: inline;!important;
+}

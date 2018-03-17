@@ -4,7 +4,7 @@
 $(document).ready(function() {
     default_project(heading[0],paragraph[0]);
     select_nav_info();
-    dynamic_team_member_creation();
+    //dynamic_team_member_creation();
 
     $('.team').click(function () {
         dynamic_team_member_creation();
@@ -17,6 +17,10 @@ $(document).ready(function() {
     });
     $('.state').click(function () {
         dynamic_state_member_creation();
+    });
+    $('.founder').click(function () {
+        $('.team-div,.mentor-div,.NRI-div,.state-div').hide();
+        $('.founder_div').show();
     });
     // Add smooth scrolling to all links in navbar + footer link
     $(".navbar a, footer a[href='#home_page']").on('click', function (event) {
@@ -304,101 +308,101 @@ var teamArray = {
     ],
     team_member_name:[
         'Pramod Gaikwad - Founder, Social Networking Forum',
-        '02 Dr Uttam Fartale',
-        '03 Dr. Pankaj Bhadane',
-        '4 Er. Prashant Bachhav',
-        '05 Ramdas Shinde',
-        '06 Gulab Aaher',
-        '07 Ambika Takalkar',
-        '08 Shrikant Dhone',
-        '09 Vaibhav Kambale',
-        '10 Vaishali Kulkarni',
-        '11 Nilesh Gaikwad',
-        '12 Adv.Arundhati Dumbare',
-        '13 Dr Yogesh Joshi - Nashik',
-        '14 Dinesh and Suvarna Joshi - Nashik',
-        '15 Ashish Choursiya, Nashik',
-        '16 Dr Madhavi Muthal',
-        '17 Vivek Shinde Ahemednagar',
-        '18 Sharad Thombare',
-        '19 Sandhya Chougule - Mumbai',
-        '20 Smita Chavhanke',
-        '21 Pratibha Choudhari - Pune',
-        '22 aArchana Jadhav Kushare',
-        '23 Archana Gaikwad',
-        '24 Datta Patil',
-        '25 Sachin',
-        '26 Laxman Kokane',
-        '27 Amod Patil',
-        '28 Sharad Sonawane',
-        '29 Sunil Sawant -',
-        '30 Pramod Bhadane',
-        '31 Rajesh Jadhav',
-        '32 Shashank Mhatre',
-        '33 Dilip Dude',
-        '34 Pramod Patil',
-        '35 Mahesh Deore',
-        '36 Avinash Tambe',
-        '37 Nilesh Kalaskar',
-        '38 Bharat Rana',
-        '39 Dnyaneshwar Patil',
-        '40 Ratnakar Gore',
-        '41 Deodatta Borase',
-        '42 Rahul Gadgil',
-        '43 Sandeep Battase',
-        '44 Sumit Mehetre',
-        '45 Vaibhav Tupe',
-        '46 Rupesh Gunjegaonkar',
-        '47 Mitesh Mutha',
-        '48 Sachin Patil',
-        '49 Vinayak Mali',
-        '50 Sandeep Ramname',
-        '51 Rahul Jinde',
-        '52 Amol Dhondage',
-        '53 Ashish Jadhav',
-        '54 Balaji Biradar',
-        '55 Pritam Dumbare',
-        '56 Darshan Gaikwad',
-        '57 Rahul Borase',
+        'Dr Uttam Fartale',
+        'Dr. Pankaj Bhadane',
+        'Er. Prashant Bachhav',
+        'Ramdas Shinde',
+        'Gulab Aaher',
+        'Ambika Takalkar',
+        'Shrikant Dhone',
+        'Vaibhav Kambale',
+        'Vaishali Kulkarni',
+        'Nilesh Gaikwad',
+        'Adv.Arundhati Dumbare',
+        'Dr Yogesh Joshi - Nashik',
+        'Dinesh and Suvarna Joshi - Nashik',
+        'Ashish Choursiya, Nashik',
+        'Dr Madhavi Muthal',
+        'Vivek Shinde Ahemednagar',
+        'Sharad Thombare',
+        'Sandhya Chougule - Mumbai',
+        'Smita Chavhanke',
+        'Pratibha Choudhari - Pune',
+        'Archana Jadhav Kushare',
+        'Archana Gaikwad',
+        'Datta Patil',
+        'Sachin',
+        'Laxman Kokane',
+        'Amod Patil',
+        'Sharad Sonawane',
+        'Sunil Sawant -',
+        'Pramod Bhadane',
+        'Rajesh Jadhav',
+        'Shashank Mhatre',
+        'Dilip Dude',
+        'Pramod Patil',
+        'Mahesh Deore',
+        'Avinash Tambe',
+        'Nilesh Kalaskar',
+        'Bharat Rana',
+        'Dnyaneshwar Patil',
+        'Ratnakar Gore',
+        'Deodatta Borase',
+        'Rahul Gadgil',
+        'Sandeep Battase',
+        'Sumit Mehetre',
+        'Vaibhav Tupe',
+        'Rupesh Gunjegaonkar',
+        'Mitesh Mutha',
+        'Sachin Patil',
+        'Vinayak Mali',
+        'Sandeep Ramname',
+        'Rahul Jinde',
+        'Amol Dhondage',
+        'Ashish Jadhav',
+        'Balaji Biradar',
+        'Pritam Dumbare',
+        'Darshan Gaikwad',
+        'Rahul Borase',
         'Dr Sarala Sohnandani',
-        '2 Dr Vishal Pawar',
-        '3 Dr Samir Pawar',
-        '4 Dr Manish Deore',
-        '5 Dr Milind Borse',
-        '6 Dr. Prashant',
-        '7 Dr Nitin Surana',
-        '8 Mr. And Mrs Pimprikar',
-        '9 Dr Kshama Aghor',
-        '10 Dr Hemraj Dhondage',
-        '11 Dr kavita Gadekar',
-        '12 Dr Hemant Borase',
-        '13 Dr Milind Gangurde',
-        '14 Dr Nitin chitalkar',
-        '15 Dr Pankaj Devare',
-        '16 Dr Pramod Ahire',
-        '17 Dr Prashant Sonawane',
-        '18 Dr Rajesh Patil',
-        '19 Dr Sandeep Aaher',
-        '19 Dr Sandeep gunde',
-        '20 Dr Sandeep Pasnsare',
-        '21 Dr Smita Raut',
-        '22 Dr Sujata Kulkarni',
-        '23 Dr Vinit Devare',
-        '24 Dr Vinod Chaudhari',
-        '25 Sunil Baravkar',
-        '26 Vaibhav More',
-        '27 Vikrant Mane',
-        '28 Dr Pramod Ahire',
-        '29 Yogesh Kadam',
-        '30 Dr Sarika devare',
-        '31 Atul ahire',
-        '32 Dr Amol Patil',
-        '33 Dr Ganesh Pathade',
-        '34 Dr Maruti Ghuge',
-        '35 Dr Milind Pimprikar',
-        '36 Dr Varsha Baste',
-        '37 Dr Yogesh Gosavi',
-        '38 Dr Vishal Pawar'
+        'Dr Vishal Pawar',
+        'Dr Samir Pawar',
+        'Dr Manish Deore',
+        'Dr Milind Borse',
+        'Dr. Prashant',
+        'Dr Nitin Surana',
+        'Mr. And Mrs Pimprikar',
+        'Dr Kshama Aghor',
+        'Dr Hemraj Dhondage',
+        'Dr kavita Gadekar',
+        'Dr Hemant Borase',
+        'Dr Milind Gangurde',
+        'Dr Nitin chitalkar',
+        'Dr Pankaj Devare',
+        'Dr Pramod Ahire',
+        'Dr Prashant Sonawane',
+        'Dr Rajesh Patil',
+        'Dr Sandeep Aaher',
+        'Dr Sandeep gunde',
+        'Dr Sandeep Pasnsare',
+        'Dr Smita Raut',
+        'Dr Sujata Kulkarni',
+        'Dr Vinit Devare',
+        'Dr Vinod Chaudhari',
+        'Sunil Baravkar',
+        'Vaibhav More',
+        'Vikrant Mane',
+        'Dr Pramod Ahire',
+        'Yogesh Kadam',
+        'Dr Sarika devare',
+        'Atul ahire',
+        'Dr Amol Patil',
+        'Dr Ganesh Pathade',
+        'Dr Maruti Ghuge',
+        'Dr Milind Pimprikar',
+        'Dr Varsha Baste',
+        'Dr Yogesh Gosavi',
+        'Dr Vishal Pawar'
     ],
     mentor:[
         '1 Dr. Vinay Sahastrbuddhe, Delhi.jpg',
@@ -407,6 +411,15 @@ var teamArray = {
         '4 Laxmikant Powanikar - Qtar.png',
         '5 Kishor Gore USA.jpg',
         '6 Dr. Jaydip Nikam Nashik.png',
+    ],
+    mentor_name:[
+        'Dr. Vinay Sahastrbuddhe, Delhi',
+        'Jeevan Sonawane - Nagpur',
+        'Rajesh Bakshi - Muscut',
+        'Laxmikant Powanikar - Qtar',
+        'Kishor Gore USA',
+        'Dr. Jaydip Nikam Nashik',
+        'Dr Appasaheb Pawar.jpg'
     ],
     other_states:[
         '1 Dr. T Chandrkant - Bhopal.jpg',
@@ -417,6 +430,15 @@ var teamArray = {
         '6 Ram Ture Tamilnadu.jpg',
         '7 Sharvari Sawant Gujrath.jpg'
     ],
+    other_state_name:[
+        'Dr. T Chandrkant - Bhopal',
+        'Sanjay Barve - Goa',
+        'Aditi Bakshi - Hyderabad',
+        'Dr Prajaktha Jirati Madhy Pradesh',
+        'Dipali Ahire Ayre - Gujrath',
+        'Ram Ture Tamilnadu',
+        'Sharvari Sawant Gujrath'
+    ],
     NRI:[
         '1 Sanjay Mane dubai.jpg',
         '2 Mukul Agashe - Singapur.jpg',
@@ -426,52 +448,70 @@ var teamArray = {
         '6 Nandkumar Desai - Dubai.jpg',
         '7 Dr Rahul Gosavi, UK.jpg',
         '8 Yogesh Kasat, USA.jpg'
+    ],
+    NRI_name:[
+        'Sanjay Mane dubai',
+        'Mukul Agashe - Singapur',
+        'Sandeep Gangarde - Gulf',
+        'Sandeep Rane - USA',
+        'Rajendra Gill - UK',
+        'Nandkumar Desai - Dubai',
+        'Dr Rahul Gosavi, UK',
+        'Yogesh Kasat, USA'
     ]
 
 };
 //members images array
 function dynamic_team_member_creation() {
-    $('.mentor-img-div,.NRI-img-div,.state-img-div').empty();
-    $('.mentor-div,.NRI-div,.state-div').hide();
+    $('.mentor-img-div,.NRI-img-div,.state-img-div,.team-img-div').empty();
+    $('.mentor-div,.NRI-div,.state-div,.founder_div').hide();
     $('.team-div').show();
     var team_member_length = teamArray['team'].length;
     for(var j = 0; j <= team_member_length; j++) {               //loop for appending team member's images to team-div
-        $('.member' + j ).append('<img src="../images/team/' + teamArray['team'][j] + '">');     //append images to div
+        var team_member_name = teamArray['team_member_name'][j];
+        var h4 = $('<h4></h4>').text(team_member_name);
+        $('.member' + j ).append('<img src="../images/team/' + teamArray['team'][j] + '">',h4);     //append images to div
     }
 }
 //team creation function ends here
 
 function dynamic_mentor_member_creation() {
-    $('.team-img-div,.state-img-div,.NRI-img-div').empty();
-    $('.team-div,.NRI-div,.state-div').hide();
+    $('.team-img-div,.state-img-div,.NRI-img-div,.mentor-img-div').empty();
+    $('.team-div,.NRI-div,.state-div,.founder_div').hide();
     $('.mentor-div').show();
     var mentor_member_length = teamArray['mentor'].length;
     for(var j = 0; j <= mentor_member_length; j++) {               //loop for appending mentor member's images to mentor-div
-        $('.mentor' + j ).append('<img src="../images/team/Mentors/' + teamArray['mentor'][j] + '">');     //append images to div
+        var team_member_name = teamArray['mentor_name'][j];
+        var h4 = $('<h4></h4>').text(team_member_name);
+        $('.mentor' + j ).append('<img src="../images/team/Mentors/' + teamArray['mentor'][j] + '">',h4);     //append images to div
     }
 }
 //mentor creation function ends here
 
 function dynamic_NRI_member_creation() {
-    $('.team-img-div,.mentor-img-div,.state-img-div').empty();
-    $('.team-div,.mentor-div,.state-div').hide();
+    $('.team-img-div,.mentor-img-div,.state-img-div,.NRI-img-div').empty();
+    $('.team-div,.mentor-div,.state-div,.founder_div').hide();
     //$('.mentor-img-div').empty();
     //$('.mentor-div').hide();
     $('.NRI-div').show();
     var mentor_member_length = teamArray['NRI'].length;
     for(var j = 0; j <= mentor_member_length; j++) {               //loop for appending mentor member's images to mentor-div
-        $('.NRI' + j ).append('<img src="../images/team/NRI%20Members/' + teamArray['NRI'][j] + '">');     //append images to div
+        var team_member_name = teamArray['NRI_name'][j];
+        var h4 = $('<h4></h4>').text(team_member_name);
+        $('.NRI' + j ).append('<img src="../images/team/NRI%20Members/' + teamArray['NRI'][j] + '">',h4);     //append images to div
     }
 }
 //NRI creation function ends here
 
 function dynamic_state_member_creation() {
-    $('.team-img-div,.mentor-img-div,.NRI-img-div').empty();
-    $('.team-div,.mentor-div,.NRI-div').hide();
+    $('.team-img-div,.mentor-img-div,.NRI-img-div,.state-img-div').empty();
+    $('.team-div,.mentor-div,.NRI-div,.founder_div').hide();
     $('.state-div').show();
     var mentor_member_length = teamArray['other_states'].length;
     for(var j = 0; j <= mentor_member_length; j++) {               //loop for appending mentor member's images to mentor-div
-        $('.state' + j ).append('<img src="../images/team/Members%20from%20other%20states/' + teamArray['other_states'][j] + '">');     //append images to div
+        var team_member_name = teamArray['other_state_name'][j];
+        var h4 = $('<h4></h4>').text(team_member_name);
+        $('.state' + j ).append('<img src="../images/team/Members%20from%20other%20states/' + teamArray['other_states'][j] + '">',h4);     //append images to div
     }
 }
 
