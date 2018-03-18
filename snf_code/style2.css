@@ -38,7 +38,7 @@ body{
     border: 1px solid #1f76bd;
     border-radius: 10px;
     position: fixed;
-    top:10vh;
+    top:90vh;
     right: 0;
     color: #fdb642;
     font-size: 20px;
@@ -190,7 +190,7 @@ h2{
 }
 .team_nav{
     position: relative;
-    left: 25%;
+    #left: 25%;
 }
 
 .vision_mission_div{
@@ -209,6 +209,14 @@ h2{
 /*-----------------------------------------------------------------------------------------------------------------
 ---------------------------------- Media Query-------------------------------------------------------*/
 
+@media screen and (max-width: 768px) {
+    .team-img-div,.NRI-img-div,.mentor-img-div,.state-img-div{
+        height: 250px;
+    }
+    .donate{
+        font-size: 15px;
+    }
 
 
+}         /* small screen device style/*
 
