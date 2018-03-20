@@ -6,7 +6,7 @@ $(document).ready(function() {
     select_nav_info();
     dynamicaly_news_image();
     //dynamic_team_member_creation();
-    $('.news_image').click(function () {
+    $('.news>div').click(function () {
         news_pic_click(this);
     });
     $('.team').click(function () {
@@ -246,15 +246,20 @@ var news_images =[
 
 var selected_news= null;
 function news_pic_click(element) {
-    selected_news = $(element);
+    selected_news = $(element).attr('title');
     console.log(selected_news);
     model_pop_up(selected_news);
 }
 
 function model_pop_up(news_pic) {
-    var model_image = $('<img src=" '+news_pic.outerHTML +' "');
-    $('.modal-body').append(model_image);
-    $('#news_modal').modal('show');
+    $('.modal-body').empty();
+    $('.modal-body').append('<img class="news_img" src=" ../images/SNF%20news/'+news_images[news_pic] +'">');
+
+    //var model_image = $(news_pic.innerHTML);
+    // $('.modal-body').append('<img src=" ' + news_pic + ' "');
+    //$('.modal-body').append(news_pic);
+
+    $('#newsmodal').modal('show');
     
 }
 
@@ -262,6 +267,6 @@ function dynamicaly_news_image() {
     var news_length = news_images.length;
     for(var j = 0; j <= news_length; j++) {               //loop for appending news images to news-div
         //var news_img = news_images[j];
-        $('.news' + j ).append('<img src="../images/SNF%20news/' + news_images[j] + '">');     //append images to div
+        $('.news' + j ).append('<img class="news_image" src="../images/SNF%20news/' + news_images[j] + '">');     //append images to div
     }
 }
