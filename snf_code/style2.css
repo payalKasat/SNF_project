@@ -144,15 +144,15 @@ h2{
 }
 
 .thumbnail {
-    padding: 0 0 15px 0;
+    #padding: 0 0 15px 0;
     border: none;
     border-radius: 0;
 }
 .thumbnail>img{
     width: 330px;
     height:270px;
-    border: 1px solid darkgray;
-    box-shadow: 5px 5px 5px gray;
+    border: 2px solid #1f76bd;
+    box-shadow: 5px 5px 15px gray;
 
 }
 .project_div{
@@ -217,18 +217,11 @@ h2{
 
 .news>div{
     box-sizing: border-box;
-    height: 330px;
     width: 270px;
     margin: 10px;
-    border: 2px solid #1f76bd;
 }
 
-.thumbnail a>img, .thumbnail>img{
-    width: 100%;
-    height: 100%;
-    margin-bottom: 20px;
-    padding: 5px;
-}
+
 
 /*-----------------------------------------------------------------------------------------------------------------
 ---------------------------------- Media Query-------------------------------------------------------*/

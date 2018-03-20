@@ -4,6 +4,7 @@
 $(document).ready(function() {
     default_project(heading[0],paragraph[0]);
     select_nav_info();
+    dynamicaly_news_image();
     //dynamic_team_member_creation();
     $('.news_image').click(function () {
         news_pic_click(this);
@@ -255,4 +256,12 @@ function model_pop_up(news_pic) {
     $('.modal-body').append(model_image);
     $('#news_modal').modal('show');
     
+}
+
+function dynamicaly_news_image() {
+    var news_length = news_images.length;
+    for(var j = 0; j <= news_length; j++) {               //loop for appending news images to news-div
+        //var news_img = news_images[j];
+        $('.news' + j ).append('<img src="../images/SNF%20news/' + news_images[j] + '">');     //append images to div
+    }
 }
