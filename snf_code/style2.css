@@ -8,7 +8,7 @@ h4{
 body{
     font-style: normal;
     font-family: Cambria;
-    color:#fdb642;
+    color:#1f76bd;
     line-height: 1.5;
     word-spacing: 3px;
     letter-spacing: 1px;
@@ -53,8 +53,12 @@ p{
     color: #1f76bd;
     font-size: 18px;
 }
-
-h2, h3{
+h3{
+    color: #fda40c;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px white;
+}
+h2{
     color: #1f76bd;
 }
 
@@ -82,7 +86,14 @@ h3{
     font-weight: bolder;
     font-size: 20px;
 }
+.supporter_img{
+    height: 150px;
+    #width: 150px;
+}
 
+/*.first_row,.second_row,.third_row{                 !* supporter div style*!*/
+    /*visibility: hidden;*/
+/*}*/
 .success_div{
     padding: 30px;
 }
