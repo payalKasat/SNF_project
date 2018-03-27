@@ -56,7 +56,48 @@
 <button class="donate col-xs-4 col-sm-2 pull-right">Donate Now</button>
 <!-- donate button position is fixed -->
 
+<div class="container form_map">
+    <div class="row">
+        <div class="col-sm-6">
+            <!-- Add Google Maps -->
+            <div id="googleMap" style="height:400px;width:100%;"></div>
+            <script>
+                function myMap() {
+                    var label = 'Silicon Valley Certifications (I) Pvt. Ltd';
+                    var myCenter = new google.maps.LatLng(20.006870, 73.766447);
+                    var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+                    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+                    var marker = new google.maps.Marker({
+                        position:myCenter,
+                        label :label
+                    });
+                    marker.setMap(map);
 
+                }
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB12sldw0cMscSZX88ZPk6JNZ2C2rlbrhE&callback=myMap"></script>
+        </div>
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-6 form-group">
+                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                    <input class="form-control" id="phone_num" name="phone" placeholder="Phone number" type="number" required>
+                </div>
+                <div class="col-sm-12 form-group">
+                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                </div>
+            </div>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+            <div class="row">
+                <div class="col-sm-12 form-group">
+                    <button class="btn btn-default pull-right" type="submit">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- footer with contact-->
 <div class="footer container-fluid ">
@@ -70,14 +111,13 @@
                     Off Big Bazaar, College Road, Nashik, Maharashtra- 422005 .</li>
                 <li><span class="glyphicon glyphicon-phone"></span> 0253-2582930, +91 7588979986, +91 9421609987</li>
                 <li><span class="glyphicon glyphicon-envelope"></span>  socialforum10@gmail.com</li>
-                <p>Follow us:</p>
-                <ul class="social_ul">
-                    <li><a href="" target="_blank"><img class="social_media" src="../images/facebook_icon.png"></a></li>
-                    <li><a href="" target="_blank"><img class="social_media" src="../images/twitter-icon-original.png"></a></li>
-                </ul>
-
             </ul>
-
+            <p>Follow us:</p>
+            <ul class="social_ul">
+                <li><a href="" target="_blank"><img class="social_media" src="../images/facebook_icon.png"></a><span class="social_icon">SNF Facebook</span></li>
+                <li><a href="" target="_blank"><img class="social_media" src="../images/twitter-icon-original.png"></a><span class="social_icon">SNF Twitter</span></li>
+                <li><a href="" target="_blank"><img class="social_media" src="../images/googleplus.png"></a><span class="social_icon">SNF Google Plus</span></li>
+            </ul>
         </div>
         <div class="col-sm-3 col-xs-12 footer_nav">
             <ul class="footer-ul">

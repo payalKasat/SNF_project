@@ -91,9 +91,7 @@ h3{
     #width: 150px;
 }
 
-/*.first_row,.second_row,.third_row{                 !* supporter div style*!*/
-    /*visibility: hidden;*/
-/*}*/
+
 .success_div{
     padding: 30px;
 }
@@ -104,13 +102,16 @@ h3{
     width: 30px;
     height: 30px;
 }
-
+.social_icon{
+    margin: 10px;
+}
 .glyphicon{
     font-size: 30px;
 }
-.contact_ul li{
+.contact_ul li,.social_ul li{
     list-style-type: none;
     color: #1f76bd;
+    display:block;
 }
 .footer{
     padding: 30px;
@@ -130,9 +131,7 @@ h3{
 .nav-tabs>li.active>a{
     #border: none;
 }
-.social_ul>li{
-    display: inline-block;
-}
+
 
 /*---------------------------------------------------------our_work page style-----------------------------------------------------------
 ------------------------------------------------------ */
@@ -225,19 +224,40 @@ h2{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
+.news_image:hover{
+    border: 2px solid transparent;
+    opacity: 0.2;
+}
+.news>div>img{
+    border: none;
+}
 .news>div{
     box-sizing: border-box;
     width: 270px;
     margin: 10px;
+    background-color: #1f76bd;
 }
 .news_img{
-    height: 50vh;
+    height: 70vh;
+    width: 100%;
 }
 .modal-content{
     width: 50vw;
     height: 90vh;
 }
+
+
+
+/**----------------------------------------- contact page style ----------------------------------------**/
+
+.form_map {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
 
 /*-----------------------------------------------------------------------------------------------------------------
 ---------------------------------- Media Query-------------------------------------------------------*/

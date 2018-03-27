@@ -6,6 +6,7 @@ $(document).ready(function() {
     select_nav_info();
     dynamicaly_news_image();
     supporter_animation();
+    myMap();
     //dynamic_team_member_creation();
     $('.news>div').click(function () {
         news_pic_click(this);
@@ -211,7 +212,11 @@ function select_nav_info(){
 
 
 //state creation function ends here
+/** blog page script and animation**/
 
+var blog_images = [
+    
+];
 
 /* media and news page script start here */
 var news_images =[
@@ -255,10 +260,6 @@ function news_pic_click(element) {
 function model_pop_up(news_pic) {
     $('.modal-body').empty();
     $('.modal-body').append('<img class="news_img" src=" ../images/SNF%20news/'+news_images[news_pic] +'">');
-
-    //var model_image = $(news_pic.innerHTML);
-    // $('.modal-body').append('<img src=" ' + news_pic + ' "');
-    //$('.modal-body').append(news_pic);
 
     $('#newsmodal').modal('show');
     
