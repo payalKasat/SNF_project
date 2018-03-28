@@ -7,6 +7,10 @@ $(document).ready(function() {
     dynamicaly_news_image();
     supporter_animation();
     myMap();
+    //form submit
+    $('.submit').click(function () {
+       submit_form();
+    });
     //dynamic_team_member_creation();
     $('.news>div').click(function () {
         news_pic_click(this);
@@ -296,44 +300,49 @@ function supporter_animation(){
 }
 
 
-/** contact page ajax call scripting
+/** contact page send ajax call scripting
  */
-
+function submit_form() {
+    $.ajax({
+        type: 'POST',
+        url: 'mailer.php',
+        data: formData
+    });
+    
+}
 $(function() {
     // Get the form.
-    var form = $('#ajax-contact');
+    //var form = $('#ajax-contact');
 
     // Get the messages div.
-    var formMessages = $('#form-messages');
+    //var formMessages = $('#form-messages');
 
-    // TODO: The rest of the code will go here...
 });
 
 // Set up an event listener for the contact form.
-$(form).submit(function(event) {
+$('#ajax-contact').submit(function(event) {
     // Stop the browser from submitting the form.
     event.preventDefault();
 
-    // TODO
 });
 
 // Serialize the form data.
-var formData = $(form).serialize();
+var formData = $('#ajax-contact').serialize();
 
 // Submit the form using AJAX.
-$.ajax({
-    type: 'POST',
-    url: $(form).attr('action'),
-    data: formData
-})
+// $.ajax({
+//     type: 'POST',
+//     url: 'mailer.php',
+//     data: formData
+// })
 
-.done(function(response) {
+.done(function() {
     // Make sure that the formMessages div has the 'success' class.
-    $(formMessages).removeClass('error');
-    $(formMessages).addClass('success');
+    $('#form-messages').removeClass('error');
+    $('#form-messages').addClass('success');
 
     // Set the message text.
-    $(formMessages).text(response);
+    //$('#form-messages').text(response);
 
     // Clear the form.
     $('#name').val('');
