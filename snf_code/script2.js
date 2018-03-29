@@ -9,7 +9,7 @@ $(document).ready(function() {
     myMap();
     //form submit
     $('.submit').click(function () {
-       submit_form();
+        validationForm();
     });
     //dynamic_team_member_creation();
     $('.news>div').click(function () {
@@ -302,71 +302,37 @@ function supporter_animation(){
 
 /** contact page send ajax call scripting
  */
-function submit_form() {
-    $.ajax({
-        type: 'POST',
-        url: 'mailer.php',
-        data: formData
-    });
+function validationForm() {
+    var name = $('#name').val();
+    var email = $('#email').val();
+    var ph_num = $('#phone_num').val();
+    if(name == ''&& email ==''&& ph_num == ''){
+        console.log('no value');
+        $('#form-messages').html('error');
+    }
+    else{
+        submit_form();
+    }
     
 }
-$(function() {
-    // Get the form.
-    //var form = $('#ajax-contact');
 
-    // Get the messages div.
-    //var formMessages = $('#form-messages');
 
-});
+function submit_form() {
+        $.ajax({
+            type: 'POST',
+            url: 'mailer.php',
+            data:'userName='+$("#name").val()+
+            '&userEmail='+$('#email').val()+
+            '&ph_num='+$('#phone_num').val(),
+            success: function(data)
+            {
+                $('#form-messages').html('<p>data</p>') // show response from the php script.
+            }
+        });
 
-// Set up an event listener for the contact form.
-$('#ajax-contact').submit(function(event) {
-    // Stop the browser from submitting the form.
-    event.preventDefault();
-
-});
-
-// Serialize the form data.
-var formData = $('#ajax-contact').serialize();
-
-// Submit the form using AJAX.
-// $.ajax({
-//     type: 'POST',
-//     url: 'mailer.php',
-//     data: formData
-// })
-
-.done(function() {
-    // Make sure that the formMessages div has the 'success' class.
-    $('#form-messages').removeClass('error');
-    $('#form-messages').addClass('success');
-
-    // Set the message text.
-    //$('#form-messages').text(response);
-
-    // Clear the form.
     $('#name').val('');
     $('#email').val('');
     $('#phone_num').val('');
     $('#comments').val('');
-})
-/**
- * fail message
- */
-
-.fail(function(data) {
-    // Make sure that the formMessages div has the 'error' class.
-    $(formMessages).removeClass('success');
-    $(formMessages).addClass('error');
-
-    // Set the message text.
-    if (data.responseText !== '') {
-        $(formMessages).text(data.responseText);
-    } else {
-        $(formMessages).text('Oops! An error occured and your message could not be sent.');
-    }
-});
-
-
-
-
+    
+}
