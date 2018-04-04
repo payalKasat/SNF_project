@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="C:\Users\ashwi\PhpstormProjects\SNF\SNF_project/snf_code/mailer.php" />
+      <path value="" />
+    </include_path>
+  </component>
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter id="b78fb643-a7bf-45ea-9e3b-1d4ca87d2e45" name="PHP" debugger_id="php.debugger.XDebug" />
+    </interpreters>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7" />
+</project>

@@ -9,7 +9,7 @@ $(document).ready(function() {
     myMap();
     //form submit
     $('.submit').click(function () {
-        validationForm();
+        submit_form();
     });
     //dynamic_team_member_creation();
     $('.news>div').click(function () {
@@ -302,37 +302,40 @@ function supporter_animation(){
 
 /** contact page send ajax call scripting
  */
-function validationForm() {
-    var name = $('#name').val();
-    var email = $('#email').val();
-    var ph_num = $('#phone_num').val();
-    if(name == ''&& email ==''&& ph_num == ''){
-        console.log('no value');
-        $('#form-messages').html('error');
-    }
-    else{
-        submit_form();
-    }
-    
-}
+
 
 
 function submit_form() {
-        $.ajax({
-            type: 'POST',
-            url: 'mailer.php',
-            data:'userName='+$("#name").val()+
-            '&userEmail='+$('#email').val()+
-            '&ph_num='+$('#phone_num').val(),
-            success: function(data)
-            {
-                $('#form-messages').html('<p>data</p>') // show response from the php script.
-            }
-        });
+   $.ajax({
+       type:'POST',
+       url:'',
+       data:$('#ajax-contact').serialize(),
+       success: function(response) {
+           $('#ajax-contact').find('#form-messages').html(response);
+       }
 
+   });
     $('#name').val('');
     $('#email').val('');
     $('#phone_num').val('');
     $('#comments').val('');
     
+}
+function validationForm() {
+    var valid = true;
+    if(!$("#name").val()){
+        $('#name').css('background-color','green');
+        valid = false;
+    }
+    if(!$("#email").val()){
+        $('#email').css('background-color','green');
+        valid = false;
+    }
+    if(!$("#phone_num").val()){
+        $('#phone_num').css('background-color','green');
+        valid - false;
+    }
+
+    return valid;
+
 }
