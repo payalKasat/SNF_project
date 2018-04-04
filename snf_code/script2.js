@@ -7,6 +7,13 @@ $(document).ready(function() {
     dynamicaly_news_image();
     supporter_animation();
     myMap();
+    //donate button click
+    $('.donate').click(function () {
+        donete_button();
+    });
+    $('.donate_now').click(function () {
+        donete_button();
+    });
     //form submit
     $('.submit').click(function () {
         submit_form();
@@ -277,7 +284,15 @@ function dynamicaly_news_image() {
     }
 }
 
-/*---------------------------------------- supporter animation----------------------------------------------------------------------
+/**---------------------------------------------- donate button script ------------------------------------------------
+ * --------------------------------------------------------------------------------------------
+ */
+
+function donete_button(){
+    $('#donate_modal').modal('show');
+}
+
+/**---------------------------------------- supporter animation----------------------------------------------------------------------
 -----------------------------------------------------------------------------
  */
 
@@ -304,38 +319,38 @@ function supporter_animation(){
  */
 
 
-
-function submit_form() {
-   $.ajax({
-       type:'POST',
-       url:'',
-       data:$('#ajax-contact').serialize(),
-       success: function(response) {
-           $('#ajax-contact').find('#form-messages').html(response);
-       }
-
-   });
-    $('#name').val('');
-    $('#email').val('');
-    $('#phone_num').val('');
-    $('#comments').val('');
-    
-}
-function validationForm() {
-    var valid = true;
-    if(!$("#name").val()){
-        $('#name').css('background-color','green');
-        valid = false;
-    }
-    if(!$("#email").val()){
-        $('#email').css('background-color','green');
-        valid = false;
-    }
-    if(!$("#phone_num").val()){
-        $('#phone_num').css('background-color','green');
-        valid - false;
-    }
-
-    return valid;
-
-}
+//
+// function submit_form() {
+//    $.ajax({
+//        type:'POST',
+//        url:'',
+//        data:$('#ajax-contact').serialize(),
+//        success: function(response) {
+//            $('#ajax-contact').find('#form-messages').html(response);
+//        }
+//
+//    });
+//     $('#name').val('');
+//     $('#email').val('');
+//     $('#phone_num').val('');
+//     $('#comments').val('');
+//
+// }
+// function validationForm() {
+//     var valid = true;
+//     if(!$("#name").val()){
+//         $('#name').css('background-color','green');
+//         valid = false;
+//     }
+//     if(!$("#email").val()){
+//         $('#email').css('background-color','green');
+//         valid = false;
+//     }
+//     if(!$("#phone_num").val()){
+//         $('#phone_num').css('background-color','green');
+//         valid - false;
+//     }
+//
+//     return valid;
+//
+// }
