@@ -319,23 +319,79 @@ function supporter_animation(){
  */
 
 
-//
-// function submit_form() {
-//    $.ajax({
-//        type:'POST',
-//        url:'',
-//        data:$('#ajax-contact').serialize(),
-//        success: function(response) {
-//            $('#ajax-contact').find('#form-messages').html(response);
-//        }
-//
-//    });
-//     $('#name').val('');
-//     $('#email').val('');
-//     $('#phone_num').val('');
-//     $('#comments').val('');
-//
-// }
+
+function submit_form() {
+    $('#name','#email','#phone_num').removeClass('has-error'); // remove the error class
+    // get the form data
+    var form_data = {
+        'name' :$('#name').val(),
+        'email' :$('#email').val(),
+        'ph_num': $('#phone_num').val(),
+        //'comment': $('#comment').val()
+    };
+
+//process the form
+
+   $.ajax({
+       type: 'POST', // define the type of HTTP verb we want to use (POST for our form)
+       url: 'mailer.php', // the url where we want to POST
+       data: form_data, // our data object
+       dataType: 'json', // what type of data do we expect back from the server
+       encode: true
+   });
+
+   // // using the done promise callback
+   //     .done(function(data) {
+   //
+   //         // log data to the console so we can see
+   //         console.log(data);
+   //
+   //         // here we will handle errors and validation messages
+   //         if ( ! data.success) {
+   //
+   //             // handle errors for name ---------------
+   //             if (data.errors.name) {
+   //                 $('#name').addClass('has-error'); // add the error class to show red input
+   //                 //$('#name').append('<div class="help-block">' + data.errors.name + '</div>'); // add the actual error message under our input
+   //             }
+   //
+   //             // handle errors for email ---------------
+   //             if (data.errors.email) {
+   //                 $('#email').addClass('has-error'); // add the error class to show red input
+   //                 //$('#email').append('<div class="help-block">' + data.errors.email + '</div>'); // add the actual error message under our input
+   //             }
+   //
+   //             // handle errors for superhero alias ---------------
+   //             if (data.errors.ph_num) {
+   //                 $('#phone_num').addClass('has-error'); // add the error class to show red input
+   //                 //$('#superhero-group').append('<div class="help-block">' + data.errors.superheroAlias + '</div>'); // add the actual error message under our input
+   //             }
+   //         }else {
+   //
+   //                 // ALL GOOD! just show the success message!
+   //                 $('form').append('<div class="alert alert-success">' + data.message + '</div>');
+   //
+   //                 // usually after form submission, you'll want to redirect
+   //                 // window.location = '/thank-you'; // redirect a user to another page
+   //
+   //             }
+   //
+   // })
+       // using the fail promise callback
+       // .fail(function(data) {
+       //
+       //     // show any errors
+       //     // best to remove for production
+       //     console.log(data);
+       // });
+    // stop the form from submitting the normal way and refreshing the page
+    event.preventDefault();
+
+
+
+}
+
+
 // function validationForm() {
 //     var valid = true;
 //     if(!$("#name").val()){
