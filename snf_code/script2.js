@@ -64,6 +64,7 @@ $(document).ready(function() {
         $(".nav-tabs a").click(function(){
             $(this).tab('show');
         });
+        $('h2').show(3000);
     myMap();
 });
 
