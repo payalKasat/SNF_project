@@ -232,9 +232,9 @@ function select_nav_info(){
 /* media and news page script start here */
 var news_images =[
     'Aurbd-a4884580-large.jpg',
-    'Cleft Operation news.jpg',
     'divy marathi news marathwads dushkal madat niddhi 213-2013.jpg',
     'Divy Marathi Rajesh Marathe.jpg',
+    '2 Social Networking Forum News Shahid Hemraj - Uttar Pradesh.jpg',
     'Divy Marathi tree plantation (2).jpg',
     'DM shahid shankar shinde dattu fad news 17 Aug 16.jpg',
     'E lEarning systems in Tribal Villages.jpg',
@@ -242,6 +242,8 @@ var news_images =[
     'IMG-20160228-WA0000.jpg',
     'IMG-20160303-WA0001.jpg',
     'IMG_1944.JPG',
+    'Social Networking Forum - SHanth Sunderarajan Tamilnadu news.jpg',
+    'SNF educational project - E learning Project news.jpg',
     'Kisan Tadavi news Divy Marathi June 18 2015.jpg',
     'Medical camp ekdare 2 Oct 2016.jpg',
     'old Books projects SNF Lokmat 19 Oct 16.jpeg',
@@ -249,7 +251,6 @@ var news_images =[
     'Pudhari news tree plantation (3).JPG',
     'shanti news DM Dec 24 16.jpg',
     'SNF birthday help news Bookes presented to Ashram School on Birthday.jpg',
-    'SNF Elearning Project news.jpg',
     'Social Networking Forum - E learning Project news.jpg',
     'Social Networking Forum Educational facilities - News.jpg',
     'Social Networking Forum Educational facilities - old Books projects SNF Lokmat 19 Oct 16.jpeg',
@@ -258,7 +259,11 @@ var news_images =[
     'Tree plantetion Tavalibaud DM news 25 Dec 2016.jpg',
     'Tribal students Nashik Darshan 15 Jan DM.jpg',
     'Vadpada News Lokmat Times June 17 2017.jpg',
-    'Water Management Course DM 9 Oct 17.jpg'
+    'Water Management Course DM 9 Oct 17.jpg',
+    '2 Social Networking Forum Shahid Hemraj And Sudhakar Singh news Dainik Bhaskar Bhopal.jpg',
+    'Social Networking Forum initiative - shanti news DM Dec 24 16.jpg',
+    '5 Nehru Yuva Kendra computer awareness news (1).jpg'
+
 ];
 
 var selected_news= null;
