@@ -13,6 +13,7 @@ body{
     word-spacing: 3px;
     letter-spacing: 1px;
 }
+
 .page-header{
     border-bottom: 5px solid #fdb642;
 }
@@ -29,8 +30,9 @@ body{
 #myCarousel{
     border-bottom: 5px solid #1f76bd;
 }
+
 .carousel-inner>.item>img{
-    height: 80vh;
+    height: 100%;
     width: 100%;
 }
 .donate{
@@ -139,7 +141,6 @@ h3{
     border-bottom: 5px solid #1f76bd;
 }
 ._info_side{
-    height: 47vh;
     padding: 0 2vh 2vh;
 }
 h2{
@@ -224,20 +225,21 @@ h2{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.news_image:hover{
+.news>div>img:hover,.blog>div>img:hover,.award>div>img:hover{
     border: 2px solid transparent;
-    opacity: 0.2;
+    opacity: 0.4;
 }
-.news>div>img{
-    border: none;
+.news>div>img,.blog>div>img,.award>div>img{
+    border: 1px solid #1f76bd;
+
 }
-.news>div{
-    box-sizing: border-box;
-    width: 270px;
-    margin: 10px;
-    background-color: #1f76bd;
+.news>div,.blog>div,.award>div{
+
+    /*box-sizing: border-box;*/
+    /*#width: 270px;*/
+    /*#margin: 10px;*/
 }
-.news_img{
+.news_img,.blog_img,.award_img{
     height: 82vh;
     width: 100%;
 }
@@ -283,12 +285,18 @@ tr td{
         height: 250px;
     }
     .donate{
-        font-size: 15px;
+        font-size: 14px;
+        width: 110px;
     }
     .modal-content {
         width: 90vw;
         height: 100vh;
     }
-
+    .bg-grey{
+        padding: 10px 10px;
+    }
+    .upcoming_work_div{
+        margin: 10px;
+    }
 }         /* small screen device style/*
 

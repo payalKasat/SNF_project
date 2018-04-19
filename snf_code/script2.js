@@ -6,6 +6,8 @@ $(document).ready(function() {
     select_nav_info();
     dynamicaly_news_image();
     supporter_animation();
+    dynamicaly_blog_image();
+    dynamicaly_awards_image();
 
     //donate button click
     $('.donate').click(function () {
@@ -20,6 +22,12 @@ $(document).ready(function() {
     });
     $('.news>div').click(function () {
         news_pic_click(this);
+    });
+    $('.blog>div').click(function () {
+        blog_pic_click(this);
+    });
+    $('.award>div').click(function () {
+        awards_pic_click(this);
     });
     //dynamic_team_member_creation();
 
@@ -179,42 +187,42 @@ function select_nav_info(){
 
     $('.nav_1').click(function(){
         dynamic_nav_info_creation(paragraph[0],heading[0]);
-        $('.water_project').show().addClass('current_div');
+        $('.water_project').show(2000).addClass('current_div');
         $(this).addClass('current_tab');
     });
     $('.nav_2').click(function(){
         dynamic_nav_info_creation(paragraph[1],heading[1]);
-        $('.shahid_javan_project').show().addClass('current_div');
+        $('.shahid_javan_project').show(2000).addClass('current_div');
         $(this).addClass('current_tab');
 
     });
     $('.nav_3').click(function(){
         dynamic_nav_info_creation(paragraph[2],heading[2]);
-        $('.education_project').show().addClass('current_div');
+        $('.education_project').show(2000).addClass('current_div');
         $(this).addClass('current_tab');
 
     });
     $('.nav_4').click(function(){
         dynamic_nav_info_creation(paragraph[3],heading[3]);
-        $('.health_project').show().addClass('current_div');
+        $('.health_project').show(2000).addClass('current_div');
         $(this).addClass('current_tab');
 
     });
     $('.nav_5').click(function(){
         dynamic_nav_info_creation(paragraph[4],heading[4]);
-        $('.environmental_project').show().addClass('current_div');
+        $('.environmental_project').show(2000).addClass('current_div');
         $(this).addClass('current_tab');
 
     });
     $('.nav_6').click(function(){
         dynamic_nav_info_creation(paragraph[5],heading[5]);
-        $('.sport_project').show().addClass('current_div');
+        $('.sport_project').show(2000).addClass('current_div');
         $(this).addClass('current_tab');
 
     });
     $('.nav_7').click(function(){
         dynamic_nav_info_creation(paragraph[6],heading[6]);
-        $('.orphanage_project').show().addClass('current_div');
+        $('.orphanage_project').show(2000).addClass('current_div');
         $(this).addClass('current_tab');
 
     });
@@ -231,6 +239,7 @@ function select_nav_info(){
 
 /* media and news page script start here */
 var news_images =[
+    'Kotambi SNF news.jpg',
     'Aurbd-a4884580-large.jpg',
     'divy marathi news marathwads dushkal madat niddhi 213-2013.jpg',
     'Divy Marathi Rajesh Marathe.jpg',
@@ -270,10 +279,10 @@ var selected_news= null;
 function news_pic_click(element) {
     selected_news = $(element).attr('title');
     console.log(selected_news);
-    model_pop_up(selected_news);
+    news_model_pop_up(selected_news);
 }
 
-function model_pop_up(news_pic) {
+function news_model_pop_up(news_pic) {
     $('.modal-body').empty();
     $('.modal-body').append('<img class="news_img" src=" ../images/SNF%20news/'+news_images[news_pic] +'">');
 
@@ -288,6 +297,86 @@ function dynamicaly_news_image() {
         $('.news' + j ).append('<img class="news_image" src="../images/SNF%20news/' + news_images[j] + '">');     //append images to div
     }
 }
+
+/**----------------------------------- blog page script --------------------------------------------------------
+ * --------------------------------------------------------------------------------------
+ */
+
+var blog_images =[
+    'Aurbd-a4701880-large.jpg',
+    'Divy Marathi Rajesh Marathe.jpg',
+    'Malegao water help news DM - 14 March 17.jpg',
+    'mata mulakhat 2 March 16.jpeg',
+    'Pramod Gaikwad Maharashtra Times interview.jpg',
+    'snf article in mata 15 Dec 15.jpg',
+    'SOCIAL FORUM ARTICLE lOKMAT.jpg',
+    'Social Networking Forum Water Project - Torangan news.jpg'
+
+];
+
+var selected_blog= null;
+function blog_pic_click(element) {
+    selected_blog = $(element).attr('title');
+    console.log(selected_blog);
+    blog_model_pop_up(selected_blog);
+}
+
+function blog_model_pop_up(blog_pic) {
+    $('.modal-body').empty();
+    $('.modal-body').append('<img class="blog_img" src=" ../images/SNF%20Articles/'+blog_images[blog_pic] +'">');
+
+    $('#blogmodal').modal('show');
+
+}
+
+function dynamicaly_blog_image() {
+    var blog_length = blog_images.length;
+    for(var j = 0; j <= blog_length; j++) {               //loop for appending news images to news-div
+        //var news_img = news_images[j];
+        $('.blog' + j ).append('<img class="blog_image" src="../images/SNF%20Articles/' + blog_images[j] + '">');     //append images to div
+    }
+}
+
+
+/***------------------------------------------- awards and re-cognition script ---------------------------------------------
+ * ----------------------------------------------------------------------------------------------------
+ */
+
+
+var awards_images =[
+    '1 Award to Pramod Gaikwad by Maharashtra Govt work done for tribal community Minister Vishnu Sawara and Palak Mantri Dada Bhuse.JPG',
+    '2 Jalyoddha Award  to SOcial Networking Forum for making villages water sufficient by Sakal Media group.JPG',
+    '3 Lions club Award to SOcial Networking Forum for using social media for social cause 2017.jpg',
+    'Felicitation of Pramod Gaikwad by Khatod social org Beed for helping one village in Marathwada drought i 2014.JPG',
+    'Felicitation of SNF founder for work done in tribal areas in UGC International conference for tribal deve.jpg',
+    'Global leadership award to SNF founder Pramod Gaikwad from Afgan Women welfare minister Masuda Jala for using social media for social cause.JPG'
+
+];
+
+var selected_awards= null;
+function awards_pic_click(element) {
+    selected_awards = $(element).attr('title');
+    console.log(selected_awards);
+    award_model_pop_up(selected_awards);
+}
+
+function award_model_pop_up(award_pic) {
+    $('.modal-body').empty();
+    $('.modal-body').append('<img class="award_img" src=" ../images/Awards%20and%20recognitions/'+awards_images[award_pic] +'">');
+
+    $('#awardmodal').modal('show');
+
+}
+
+function dynamicaly_awards_image() {
+    var award_length = awards_images.length;
+    for(var j = 0; j <= award_length; j++) {               //loop for appending news images to news-div
+        //var news_img = news_images[j];
+        $('.award' + j ).append('<img class="award_img" src="../images/Awards%20and%20recognitions/' + awards_images[j] + '">');     //append images to div
+    }
+}
+
+
 
 /**---------------------------------------------- donate button script ------------------------------------------------
  * --------------------------------------------------------------------------------------------
