@@ -239,6 +239,7 @@ function select_nav_info(){
 
 /* media and news page script start here */
 var news_images =[
+    'IMG-20180415-WA0003.jpg',
     'Kotambi SNF news.jpg',
     'Aurbd-a4884580-large.jpg',
     'divy marathi news marathwads dushkal madat niddhi 213-2013.jpg',
