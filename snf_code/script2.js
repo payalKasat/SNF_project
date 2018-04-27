@@ -17,9 +17,9 @@ $(document).ready(function() {
         donete_button();
     });
     //form submit
-    $('.submit').click(function () {
-        submit_form();
-    });
+    // $('.submit').click(function () {
+    //     submit_form();
+    // });
     $('.news>div').click(function () {
         news_pic_click(this);
     });

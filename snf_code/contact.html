@@ -13,7 +13,7 @@
     <!--<script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>-->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB12sldw0cMscSZX88ZPk6JNZ2C2rlbrhE&callback=myMap"></script>
-
+    <script src="team_member.js"></script>
     <script src="script2.js"></script>
     <link rel="stylesheet" type="text/css" href="style2.css">
 
@@ -21,7 +21,7 @@
 <body id="home_page" data-spy="scroll" >
 
 <div class="page-header">
-    <a href="#home_page"><img class="img-responsive snf_logo" src="../images/snf_logo2.png" alt="SNF logo"></a>
+    <a href="index.html"><img class="img-responsive snf_logo" src="../images/snf_logo2.png" alt="SNF logo"></a>
 </div>
 <!-- header ends here-->
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -73,13 +73,13 @@
     <hr style="height:5px; width:40vw; background-color:#fdb642">
     <div class="container form_map">
         <div class="row">
-            <div class="col-sm-6">
-                <!-- Add Google Maps -->
-                <div id="googleMap" style="height:400px;width:100%;"></div>
-            </div>
+            <!--<div class="col-sm-6">-->
+                <!--&lt;!&ndash; Add Google Maps &ndash;&gt;-->
+                <!--<div id="googleMap" style="height:400px;width:100%;"></div>-->
+            <!--</div>-->
             <div class="col-sm-6">
                 <div id="form-messages"></div>
-                <form id="ajax-contact" method="post" action="mailer.php">
+                <form id="ajax-contact" class ="contact_form" method="post" action="mailer.php">
                     <div class="col-sm-6 form-group">
                         <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
                     </div>
@@ -92,13 +92,13 @@
                     <div class="col-sm-12 form-group">
                         <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
                     </div>
-
-                </form>
-                <div class="row">
-                    <div class="col-sm-12 form-group">
-                        <button class="btn btn-default pull-right submit" type="submit">Send</button>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button class="btn btn-default pull-right submit" name="submit" type="submit">Send</button></a>
+                        </div>
                     </div>
-                </div>
+                </form>
+
                 <div>
                     <a href="donate_page.html"><button class="donate_now">Donate Now</button></a>
                 </div>

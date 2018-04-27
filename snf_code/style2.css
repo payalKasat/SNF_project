@@ -82,6 +82,13 @@ h3{
     color: #1f76bd;
 }
 
+.navbar-default .navbar-nav>li>a:hover{
+    font-size: 25px;
+}
+
+.dropdown-menu>li>a:hover{
+    background-color: #fdb642;
+}
 .panel-default>.panel-heading{
     background-color: #fdb642;
     color: #1f76bd;
@@ -118,7 +125,10 @@ h3{
 .footer{
     padding: 30px;
     border-top: 5px solid #1f76bd;
-
+}
+.footer-ul>li>a:hover{
+    font-size: 25px;
+    color: #fda40c;
 }
 
 /* what we do page style-------------------------------------------------------------------------------------------------------------
@@ -226,8 +236,8 @@ h2{
     margin-bottom: 50px;
 }
 .news>div>img:hover,.blog>div>img:hover,.award>div>img:hover{
-    border: 2px solid transparent;
     opacity: 0.4;
+    border: 10px solid #1f76bd;
 }
 .news>div>img,.blog>div>img,.award>div>img{
     border: 1px solid #1f76bd;
@@ -255,7 +265,7 @@ h2{
 
 /*}*/
 .modal-content{
-    width: 50vw;
+    #width: 50vw;
     height: 100vh;
 }
 
@@ -294,14 +304,15 @@ tr td{
 @media screen and (max-width: 768px) {
     .team-img-div,.NRI-img-div,.mentor-img-div,.state-img-div{
         height: 250px;
+        margin-bottom: 75px;
     }
     .donate{
         font-size: 14px;
         width: 110px;
     }
     .modal-content {
-        width: 90vw;
-        height: 100vh;
+        width: 100%;
+        height: 95%;
     }
     .bg-grey{
         padding: 10px 10px;
@@ -309,5 +320,10 @@ tr td{
     .upcoming_work_div{
         margin: 10px;
     }
+    .news_img, .blog_img, .award_img {
+        height: 75%;
+        width: 100%;
+    }
+
 }         /* small screen device style/*
 
