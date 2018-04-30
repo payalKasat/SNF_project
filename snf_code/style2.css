@@ -31,6 +31,9 @@ body{
     border-bottom: 5px solid #1f76bd;
 }
 
+.carousel-inner>.item{
+    height: 95vh;
+}
 .carousel-inner>.item>img{
     height: 100%;
     width: 100%;
@@ -100,11 +103,21 @@ h3{
     #width: 150px;
 }
 
+.project_stories{
+    padding: 70px 10px;
+}
 
 .success_div{
     padding: 30px;
 }
-
+.stories-img-div{
+    height: 300px;
+    width: 315px;
+}
+.stories-img-div>img{
+    width: 100%;
+    height: 100%;
+}
 /*footer style--------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------*/
 .social_media{
@@ -194,7 +207,7 @@ h2{
 /*--------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------*/
 .team-img-div,.mentor-img-div,.NRI-img-div,.state-img-div,.founder-img{
-    height: 175px;
+    height: 195px;
     margin-bottom: 10vh;
     #border: 1px solid;
     box-sizing: border-box;
@@ -302,9 +315,10 @@ tr td{
 /*-----------------------------------------------------------------------------------------------------------------
 ---------------------------------- Media Query-------------------------------------------------------*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 812px) {
     .team-img-div,.NRI-img-div,.mentor-img-div,.state-img-div{
-        height: 250px;
+        height: 210px;
+        width: 180px;
         margin-bottom: 75px;
     }
     .donate{
@@ -324,6 +338,10 @@ tr td{
     .news_img, .blog_img, .award_img {
         height: 75%;
         width: 100%;
+    }
+
+    .carousel-inner>.item {
+        height: auto;
     }
 
 }         /* small screen device style/*
