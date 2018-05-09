@@ -20,6 +20,9 @@ body{
 #about{
     border-top: 5px solid #1f76bd;
 }
+#about>h2{
+    color: #fdb642;
+}
 .bg-grey{
     padding: 50px 50px;
     background-color: black;
@@ -61,15 +64,12 @@ p{
 h3{
     color: #fda40c;
     font-weight: bold;
-    text-shadow: 3px 3px 3px white;
-}
-/*h2{*/
-    /*color: #1f76bd;*/
-/*}*/
-
-h3{
+    text-shadow: 3px 3px 3px black;
     padding: 30px;
 }
+
+
+
 .snf_logo{
     margin: auto;
 }
@@ -108,20 +108,31 @@ h3{
     padding: 100px 0px;
 }
 .story-div{
-    #height: 700px;
-    box-sizing: border-box;
-    border: 1px solid;
-    margin: 1px;
+    padding: 10px 0px;
+    border-bottom: 5px solid #1f76bd;
 }
-.story-div>img{
-    #width: 100%;
-    #height: 35%;
+.stories>img{
+    #width: 300px;
+    #height: 200px;
     border: 1px solid;
+    #border-radius: 100%;
 }
-.story-div>h4{
+.stories_button{
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f76bd;
+    border: 1px solid #1f76bd;
+    border-radius: 10px;
+}
+.project_info{
+    background-color: #dcdcdc;
+}
+.project_info>h4{
     font-size: 25px;
     color: #fda40c;
     text-align: center;
+    font-weight: bold;
+    #text-shadow: 3px 3px 10px;
 }
 .stories_button{
     margin: auto;
@@ -174,10 +185,16 @@ h3{
 ._info_side{
     padding: 0 2vh 2vh;
 }
+.info_h2{
+    text-decoration: underline #1f76bd;
+    text-decoration-style: dotted;
+}
 h2{
     #text-decoration: underline;
     color: #fda40c;
     margin: 0 0 40px 0;
+    #text-shadow: 3px 3px 2px dimgrey;
+    font-weight: bold;
 }
 .nav-side>li>a:focus, .nav>li>a:hover,.current_tab{
     background-color: #fdb642;
