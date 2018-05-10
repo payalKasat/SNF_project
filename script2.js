@@ -285,7 +285,7 @@ function news_pic_click(element) {
 
 function news_model_pop_up(news_pic) {
     $('.modal-body').empty();
-    $('.modal-body').append('<img class="news_img" src=" ../images/SNF%20news/'+news_images[news_pic] +'">');
+    $('.modal-body').append('<img class="news_img" src=" images/SNF%20news/'+news_images[news_pic] +'">');
 
     $('#newsmodal').modal('show');
     
@@ -295,7 +295,7 @@ function dynamicaly_news_image() {
     var news_length = news_images.length;
     for(var j = 0; j <= news_length; j++) {               //loop for appending news images to news-div
         //var news_img = news_images[j];
-        $('.news' + j ).append('<img class="news_image" src="../images/SNF%20news/' + news_images[j] + '">');     //append images to div
+        $('.news' + j ).append('<img class="news_image" src="images/SNF%20news/' + news_images[j] + '">');     //append images to div
     }
 }
 
@@ -324,7 +324,7 @@ function blog_pic_click(element) {
 
 function blog_model_pop_up(blog_pic) {
     $('.modal-body').empty();
-    $('.modal-body').append('<img class="blog_img" src=" ../images/SNF%20Articles/'+blog_images[blog_pic] +'">');
+    $('.modal-body').append('<img class="blog_img" src=" images/SNF%20Articles/'+blog_images[blog_pic] +'">');
 
     $('#blogmodal').modal('show');
 
@@ -334,7 +334,7 @@ function dynamicaly_blog_image() {
     var blog_length = blog_images.length;
     for(var j = 0; j <= blog_length; j++) {               //loop for appending news images to news-div
         //var news_img = news_images[j];
-        $('.blog' + j ).append('<img class="blog_image" src="../images/SNF%20Articles/' + blog_images[j] + '">');     //append images to div
+        $('.blog' + j ).append('<img class="blog_image" src="images/SNF%20Articles/' + blog_images[j] + '">');     //append images to div
     }
 }
 
@@ -363,7 +363,7 @@ function awards_pic_click(element) {
 
 function award_model_pop_up(award_pic) {
     $('.modal-body').empty();
-    $('.modal-body').append('<img class="award_img" src=" ../images/Awards%20and%20recognitions/'+awards_images[award_pic] +'">');
+    $('.modal-body').append('<img class="award_img" src=" images/Awards%20and%20recognitions/'+awards_images[award_pic] +'">');
 
     $('#awardmodal').modal('show');
 
@@ -373,7 +373,7 @@ function dynamicaly_awards_image() {
     var award_length = awards_images.length;
     for(var j = 0; j <= award_length; j++) {               //loop for appending news images to news-div
         //var news_img = news_images[j];
-        $('.award' + j ).append('<img class="award_img" src="../images/Awards%20and%20recognitions/' + awards_images[j] + '">');     //append images to div
+        $('.award' + j ).append('<img class="award_img" src="images/Awards%20and%20recognitions/' + awards_images[j] + '">');     //append images to div
     }
 }
 
@@ -752,7 +752,7 @@ function dynamic_team_member_creation() {
     for(var j = 0; j <= team_member_length; j++) {               //loop for appending team member's images to team-div
         var team_member_name = teamArray['team_member_name'][j];
         var h4 = $('<h4></h4>').text(team_member_name);
-        $('.member' + j ).append('<img src="../images/team/' + teamArray['team'][j] + '">',h4);     //append images to div
+        $('.member' + j ).append('<img src="images/team/' + teamArray['team'][j] + '">',h4);     //append images to div
     }
 }
 //team creation function ends here
@@ -765,7 +765,7 @@ function dynamic_mentor_member_creation() {
     for(var j = 0; j <= mentor_member_length; j++) {               //loop for appending mentor member's images to mentor-div
         var team_member_name = teamArray['mentor_name'][j];
         var h4 = $('<h4></h4>').text(team_member_name);
-        $('.mentor' + j ).append('<img src="../images/team/Mentors/' + teamArray['mentor'][j] + '">',h4);     //append images to div
+        $('.mentor' + j ).append('<img src="images/team/Mentors/' + teamArray['mentor'][j] + '">',h4);     //append images to div
     }
 }
 //mentor creation function ends here
@@ -780,7 +780,7 @@ function dynamic_NRI_member_creation() {
     for(var j = 0; j <= mentor_member_length; j++) {               //loop for appending mentor member's images to mentor-div
         var team_member_name = teamArray['NRI_name'][j];
         var h4 = $('<h4></h4>').text(team_member_name);
-        $('.NRI' + j ).append('<img src="../images/team/NRI%20Members/' + teamArray['NRI'][j] + '">',h4);     //append images to div
+        $('.NRI' + j ).append('<img src="images/team/NRI%20Members/' + teamArray['NRI'][j] + '">',h4);     //append images to div
     }
 }
 //NRI creation function ends here
@@ -793,7 +793,7 @@ function dynamic_state_member_creation() {
     for(var j = 0; j <= mentor_member_length; j++) {               //loop for appending mentor member's images to mentor-div
         var team_member_name = teamArray['other_state_name'][j];
         var h4 = $('<h4></h4>').text(team_member_name);
-        $('.state' + j ).append('<img src="../images/team/Members%20from%20other%20states/' + teamArray['other_states'][j] + '">',h4);     //append images to div
+        $('.state' + j ).append('<img src="images/team/Members%20from%20other%20states/' + teamArray['other_states'][j] + '">',h4);     //append images to div
     }
 }
 
