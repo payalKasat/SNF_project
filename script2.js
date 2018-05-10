@@ -343,7 +343,13 @@ function dynamicaly_blog_image() {
  * ----------------------------------------------------------------------------------------------------
  */
 
-
+var awards_name = ['Award to Pramod Gaikwad by Maharashtra Govt work done for tribal community Minister Vishnu Sawara and Palak Mantri Dada Bhuse',
+    'Jalyoddha Award  to SOcial Networking Forum for making villages water sufficient by Sakal Media group',
+    'Lions club Award to SOcial Networking Forum for using social media for social cause 2017',
+    'Pramod Gaikwad by Khatod social org Beed for helping one village in Marathwada drought 2014',
+    'SNF founder for work done in tribal areas in UGC International conference for tribal deve',
+    'Global leadership award to SNF founder Pramod Gaikwad from Afgan Women welfare minister Masuda Jala for using social media for social cause'
+];
 var awards_images =[
     '1 Award to Pramod Gaikwad by Maharashtra Govt work done for tribal community Minister Vishnu Sawara and Palak Mantri Dada Bhuse.JPG',
     '2 Jalyoddha Award  to SOcial Networking Forum for making villages water sufficient by Sakal Media group.JPG',
@@ -372,8 +378,9 @@ function award_model_pop_up(award_pic) {
 function dynamicaly_awards_image() {
     var award_length = awards_images.length;
     for(var j = 0; j <= award_length; j++) {               //loop for appending news images to news-div
-        //var news_img = news_images[j];
-        $('.award' + j ).append('<img class="award_img" src="images/Awards%20and%20recognitions/' + awards_images[j] + '">');     //append images to div
+        var award_name = awards_name[j];
+        var h4 = $('<h4></h4>').text(award_name);
+        $('.award' + j ).append('<img class="award_img" src="images/Awards%20and%20recognitions/' + awards_images[j] + '">',h4);     //append images to div
     }
 }
 

@@ -1,6 +1,20 @@
 /*Created by Ashwini 3/4/2018*/
+
 ul >li{
     font-size: 20px;
+}
+.carousel-caption{
+    padding-bottom: 60px;
+}
+h1{
+    background: linear-gradient(to right,rgba(253, 246, 244, 0.5),rgba(255,255,255,0.5), rgba(253, 246, 244, 0.5)); /* Standard syntax (must be last) */
+    color:#1f76bd;
+    font-size: 50px;
+    font-weight: bold;
+}
+.carousel-caption>h2{
+    background: linear-gradient(to right,rgba(250, 246, 244, 0.5),rgba(255,255,255,0.5), rgba(250, 246, 244, 0.5)); /* Standard syntax (must be last) */
+
 }
 h4{
     color: #1f76bd;
@@ -8,11 +22,12 @@ h4{
 body{
     font-style: normal;
     font-family: Cambria;
-    color:#1f76bd;
+    color: gray;
     line-height: 1.5;
     word-spacing: 3px;
     letter-spacing: 1px;
 }
+
 
 .page-header{
     border-bottom: 5px solid #fdb642;
@@ -38,8 +53,8 @@ body{
     height: 95vh;
 }
 .carousel-inner>.item>img{
-    height: 100%;
-    #width: 100%;
+    height: 100vh;
+    width: 100%;
 }
 .donate{
     height: 40px;
@@ -48,7 +63,6 @@ body{
     position: fixed;
     top:90vh;
     right: 0;
-    color: #fdb642;
     font-size: 20px;
     font-weight: bold;
     z-index: 1;
@@ -93,6 +107,13 @@ h3{
 
     background-color: #fdb642;
 }
+.heading{
+    margin-top: 40px;
+}
+.about_read{
+    #align-items: center;
+    margin-left: 35%;
+}
 .panel-default>.panel-heading{
     background-color: #fdb642;
     color: #1f76bd;
@@ -109,23 +130,24 @@ h3{
 }
 .story-div{
     padding: 10px 0px;
-    border-bottom: 5px solid #1f76bd;
+    border-bottom: 2px solid #fda40c;
 }
 .stories>img{
     #width: 300px;
-    #height: 200px;
-    border: 1px solid;
+    height: 200px;
+    border-left: 10px solid #1f76bd;
+    border-right: 10px solid #1f76bd;
+
     #border-radius: 100%;
 }
 .stories_button{
     font-size: 20px;
     font-weight: bold;
-    color: #1f76bd;
     border: 1px solid #1f76bd;
     border-radius: 10px;
 }
 .project_info{
-    background-color: #dcdcdc;
+    background-color: rgba(128,128,128,0.2);
 }
 .project_info>h4{
     font-size: 25px;
@@ -134,9 +156,7 @@ h3{
     font-weight: bold;
     #text-shadow: 3px 3px 10px;
 }
-.stories_button{
-    margin: auto;
-}
+
 /*footer style--------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------*/
 .social_media{
@@ -251,7 +271,9 @@ h2{
     position: relative;
     #left: 25%;
 }
-
+.vision_mission_div>.left-div{
+    border-right: 10px solid #fdb642;
+}
 .vision_mission_div{
     background-color: lightgray;
     margin: 0;
@@ -330,6 +352,25 @@ h2{
 /**----------------------------------- donate page style -----------------------------------------------------------------
 --------------------------------------------------------------
  */
+.btn{
+    background-color: #1f76bd;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    #border: 1px solid #1f76bd;
+    border-radius: 10px;
+
+}
+.btn:hover{
+    background-color: #fdb642;
+    color: white;
+}
+p{
+    color: gray;
+}
+span{
+    color: #1f76bd;
+}
 tr td{
     font-weight: bold;
     font-size: 18px;
