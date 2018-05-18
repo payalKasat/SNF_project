@@ -448,6 +448,17 @@ tr td{
     .carousel-inner>.item{
         height: auto;
     }
+    .carousel-caption{
+        bottom: 0;
+        padding-bottom: 0;
+    }
+    .carousel-caption>h2{
+        font-size: 10px;
+
+    }
+    .carousel-caption>h1{
+        font-size: 20px;
+    }
 
 }         /* small screen device style/*
 

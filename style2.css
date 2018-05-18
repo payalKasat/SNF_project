@@ -410,6 +410,16 @@ tr td{
 ---------------------------------- Media Query-------------------------------------------------------*/
 
 @media screen and (max-width: 812px) {
+    .carousel-caption{
+        padding-bottom: 0;
+    }
+    .carousel-caption>h2{
+        font-size: 10px;
+
+    }
+    .carousel-caption>h1{
+        font-size: 20px;
+    }
     .success_div{
         padding: 10px;
         margin: 20px;
