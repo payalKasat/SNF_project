@@ -5,35 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c28f73e0-f860-4967-a3b8-fdba309b49a0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/images/payumoney-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/payumoney.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment_script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about_us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awards.html" beforeDir="false" afterPath="$PROJECT_DIR$/awards.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/donate_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/marathi/Mabout_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/marathi/Mabout_us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marathi/Mawards.html" beforeDir="false" afterPath="$PROJECT_DIR$/marathi/Mawards.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marathi/Mblog.html" beforeDir="false" afterPath="$PROJECT_DIR$/marathi/Mblog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marathi/Mdonate_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/marathi/Mdonate_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marathi/Mindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/marathi/Mindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marathi/Mmedia.html" beforeDir="false" afterPath="$PROJECT_DIR$/marathi/Mmedia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marathi/Mour_ongoing_work.html" beforeDir="false" afterPath="$PROJECT_DIR$/marathi/Mour_ongoing_work.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marathi/Mour_upcoming_work.html" beforeDir="false" afterPath="$PROJECT_DIR$/marathi/Mour_upcoming_work.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marathi/Mscript2.js" beforeDir="false" afterPath="$PROJECT_DIR$/marathi/Mscript2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marathi/Mstyle2.css" beforeDir="false" afterPath="$PROJECT_DIR$/marathi/Mstyle2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marathi/Mteam2.html" beforeDir="false" afterPath="$PROJECT_DIR$/marathi/Mteam2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marathi/Mvideo_news.html" beforeDir="false" afterPath="$PROJECT_DIR$/marathi/Mvideo_news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marathi/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/marathi/Mcontact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marathi/team_member.js" beforeDir="false" afterPath="$PROJECT_DIR$/marathi/Mteam_member.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media.html" beforeDir="false" afterPath="$PROJECT_DIR$/media.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our_ongoing_work.html" beforeDir="false" afterPath="$PROJECT_DIR$/our_ongoing_work.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our_upcoming_work.html" beforeDir="false" afterPath="$PROJECT_DIR$/our_upcoming_work.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script2.js" beforeDir="false" afterPath="$PROJECT_DIR$/script2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/style2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team2.html" beforeDir="false" afterPath="$PROJECT_DIR$/team2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team_member.js" beforeDir="false" afterPath="$PROJECT_DIR$/team_member.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video_news.html" beforeDir="false" afterPath="$PROJECT_DIR$/video_news.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,119 +22,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Mawards.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/marathi/Mawards.html">
+      <file leaf-file-name="donate_page.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/donate_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="256">
+              <caret line="161" column="14" selection-start-line="161" selection-start-column="14" selection-end-line="161" selection-end-column="14" />
               <folding>
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mteam2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/marathi/Mteam2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
-              <folding>
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mteam_member.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/marathi/Mteam_member.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="311" selection-start-line="311" selection-end-line="311" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mvideo_news.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/marathi/Mvideo_news.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mblog.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/marathi/Mblog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mcontact.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/marathi/Mcontact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ul#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mmedia.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/marathi/Mmedia.html">
+      <file leaf-file-name="script2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="737" selection-start-line="737" selection-end-line="737" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="payment_script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/payment_script.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="style2.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style2.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="420" selection-start-line="420" selection-end-line="420" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="628">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mour_ongoing_work.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/marathi/Mour_ongoing_work.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mour_upcoming_work.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/marathi/Mour_upcoming_work.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mabout_us.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/marathi/Mabout_us.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-              <folding>
-                <element signature="n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#hr#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#hr#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#ul#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-              </folding>
+              <caret line="409" selection-start-line="409" selection-end-line="409" />
             </state>
           </provider>
         </entry>
@@ -167,12 +77,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>contac</find>
       <find>title</find>
       <find>myMap</find>
       <find>align=&quot;center&quot;</find>
@@ -201,6 +111,8 @@
       <find>District : Nashik, Population 2100.</find>
       <find>Scheme supported by : Social Networkers.</find>
       <find>images/</find>
+      <find>payment</find>
+      <find>payment_button</find>
     </findStrings>
     <replaceStrings>
       <replace>special_attr</replace>
@@ -244,7 +156,6 @@
         <option value="$PROJECT_DIR$/snf_code/team2.html" />
         <option value="$PROJECT_DIR$/snf_code/script2.js" />
         <option value="$PROJECT_DIR$/snf_code/our_ongoing_work.html" />
-        <option value="$PROJECT_DIR$/donate_page.html" />
         <option value="$PROJECT_DIR$/marathi/about_us.html" />
         <option value="$PROJECT_DIR$/marathi/donate_page.html" />
         <option value="$PROJECT_DIR$/marathi/media.html" />
@@ -257,8 +168,6 @@
         <option value="$PROJECT_DIR$/marathi/Mscript2.js" />
         <option value="$PROJECT_DIR$/marathi/team_member.js" />
         <option value="$PROJECT_DIR$/marathi/Mindex.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/style2.css" />
         <option value="$PROJECT_DIR$/marathi/Mstyle2.css" />
         <option value="$PROJECT_DIR$/team2.html" />
         <option value="$PROJECT_DIR$/about_us.html" />
@@ -278,6 +187,10 @@
         <option value="$PROJECT_DIR$/marathi/Mour_upcoming_work.html" />
         <option value="$PROJECT_DIR$/marathi/Mteam2.html" />
         <option value="$PROJECT_DIR$/marathi/Mvideo_news.html" />
+        <option value="$PROJECT_DIR$/style2.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/payment_script.js" />
+        <option value="$PROJECT_DIR$/donate_page.html" />
       </list>
     </option>
   </component>
@@ -310,11 +223,6 @@
               <item name="SNF_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="SNF_project" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="SNF_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SNF_project" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="marathi" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -329,15 +237,15 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ashwi\PhpstormProjects\SNF\SNF_project\images\SNF news" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ashwi\PhpstormProjects\SNF\SNF_project\images" />
       <recent name="C:\Users\ashwi\PhpstormProjects\SNF\SNF_project\marathi" />
       <recent name="C:\Users\ashwi\PhpstormProjects\SNF\SNF_project" />
       <recent name="C:\Users\ashwi\PhpstormProjects\SNF\SNF_project\node_file" />
       <recent name="C:\Users\ashwi\PhpstormProjects\SNF\SNF_project\images\SNF Water projects" />
-      <recent name="C:\Users\ashwi\PhpstormProjects\SNF\SNF_project\images\SNF Education" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ashwi\PhpstormProjects\SNF\SNF_project\images\SNF news" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -388,7 +296,13 @@
       <workItem from="1527624197862" duration="1766000" />
       <workItem from="1527805182551" duration="2976000" />
       <workItem from="1528833060521" duration="2146000" />
-      <workItem from="1528842793578" duration="2905000" />
+      <workItem from="1528842793578" duration="6772000" />
+      <workItem from="1530049392183" duration="468000" />
+      <workItem from="1535733309186" duration="1343000" />
+      <workItem from="1535738662720" duration="640000" />
+      <workItem from="1536601859637" duration="2421000" />
+      <workItem from="1536692130612" duration="1299000" />
+      <workItem from="1537206865844" duration="4912000" />
     </task>
     <task id="LOCAL-00001" summary="adding contact page">
       <created>1521750164296</created>
@@ -607,17 +521,24 @@
       <option name="project" value="LOCAL" />
       <updated>1526621763169</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="marathi and english button created for 2 language view site.">
+      <created>1528845928758</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1528845928758</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177090000" />
+    <option name="totallyTimeSpent" value="192040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1613" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.244373" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25080386" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32791328" />
@@ -649,7 +570,6 @@
       <path value="C:\Users\ashwi\PhpstormProjects/SNF\SNF" />
       <path value="C:\Users\ashwi\PhpstormProjects/SNF\SNF_project" />
     </ignored-roots>
-    <MESSAGE value="working on ajax call for form submit" />
     <MESSAGE value="ajax call for form submit." />
     <MESSAGE value="working on ajax call and" />
     <MESSAGE value="working on ajax call and php mailer configration" />
@@ -674,10 +594,10 @@
     <MESSAGE value="index page added captionn to carsoul imagea,&#10;award page added title to award photos and donate button css changes" />
     <MESSAGE value="making pages in marathi too." />
     <MESSAGE value="news, blog, articles, awards page converted into marathi" />
-    <option name="LAST_COMMIT_MESSAGE" value="news, blog, articles, awards page converted into marathi" />
+    <MESSAGE value="marathi and english button created for 2 language view site." />
+    <option name="LAST_COMMIT_MESSAGE" value="marathi and english button created for 2 language view site." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/snf_code/style2.css" />
     <entry file="file://$PROJECT_DIR$/snf_code/index.html" />
     <entry file="file://$PROJECT_DIR$/snf_code/blog.html" />
     <entry file="file://$PROJECT_DIR$/snf_code/script2.js" />
@@ -720,23 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="737" lean-forward="true" selection-start-line="737" selection-end-line="737" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/marathi/Mstyle2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
@@ -748,13 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="295" column="1" lean-forward="true" selection-start-line="295" selection-start-column="1" selection-end-line="295" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="57" column="43" lean-forward="true" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -786,13 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/donate_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="628">
@@ -818,9 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -828,10 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
           <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="n#style#0;n#hr#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -839,40 +721,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
           <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/marathi/Mabout_us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#hr#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#hr#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/marathi/Mawards.html">
+    <entry file="file://$PROJECT_DIR$/marathi/Mmedia.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="628">
           <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/marathi/Mvideo_news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/marathi/Mcontact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
@@ -883,21 +752,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/marathi/Mcontact.html">
+    <entry file="file://$PROJECT_DIR$/marathi/Mteam_member.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="628">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/marathi/Mmedia.html">
+    <entry file="file://$PROJECT_DIR$/marathi/Mteam2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/marathi/Mawards.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="628">
           <caret line="56" selection-start-line="56" selection-end-line="56" />
@@ -918,32 +787,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/marathi/Mteam2.html">
+    <entry file="file://$PROJECT_DIR$/marathi/Mabout_us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="349">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/marathi/Mteam_member.js">
+    <entry file="file://$PROJECT_DIR$/style2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="420" selection-start-line="420" selection-end-line="420" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="628">
-          <caret line="311" selection-start-line="311" selection-end-line="311" />
+          <caret line="409" selection-start-line="409" selection-end-line="409" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/marathi/Mvideo_news.html">
+    <entry file="file://$PROJECT_DIR$/script2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="490">
+          <caret line="737" selection-start-line="737" selection-end-line="737" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment_script.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/donate_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="161" column="14" selection-start-line="161" selection-start-column="14" selection-end-line="161" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

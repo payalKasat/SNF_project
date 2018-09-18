@@ -13,6 +13,7 @@
     <!--<script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>-->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script src="script2.js"></script>
+    <script src="payment_script.js"></script>
     <link rel="stylesheet" type="text/css" href="style2.css">
 
 </head>
@@ -96,108 +97,83 @@
         </table>
     </div>
     <hr style="height:1px; width:100%; background-color:#dddddd">
-    <div class="row">
-            <h2 class="title-style-1 text-center">Bank Account Details</h2>
-        <hr style="height:5px; width:40vw; background-color:#fdb642">
+    <div class="donation_div">
+        <div class="donation_header text-center">
+            <h2>You can help society for there every day need... </h2>
+            <h2>Let's do it together...</h2>
+        </div>
+        <div class="donation_option">
+            <h2 class="text-center">Step 1: Select Amount</h2>
+            <ul class="donate_option_ul text-center">
+                <li><button class="btn">500</button>
+                    <!--<div class='pm-button'>-->
+                        <!--<a href='https://www.payumoney.com/paybypayumoney/#/490C12C980E2701A988F12D667C0963B'>-->
+                        <!--</a>-->
+                    <!--</div>-->
+                </li>
+                <li><button class="btn">1000</button>
+                    <!--<div class='pm-button'>-->
+                        <!--<a href='https://www.payumoney.com/paybypayumoney/#/9BCACDE9334D7B821F261981913EB303'>-->
+                    <!--&lt;!&ndash;<img src='https://www.payumoney.com/media/images/payby_payumoney/new_buttons/11.png' />&ndash;&gt;-->
+                        <!--</a>-->
+                    <!--</div>-->
+                </li>
+                <li><button class="btn">1500</button>
+                    <!--<div class='pm-button'>-->
+                        <!--<a href='https://www.payumoney.com/paybypayumoney/#/0FF00C5EC87E963BA62BD467D250C536'>-->
+                        <!--</a>-->
+                    <!--</div>-->
+                </li>
+                <li><button class="btn">2000</button>
+                    <!--<div class='pm-button'>-->
+                        <!--<a href='https://www.payumoney.com/paybypayumoney/#/C1FCECA696B4E46542D64BF401301FCA'>-->
+                        <!--&lt;!&ndash;<img src='https://www.payumoney.com/media/images/payby_payumoney/new_buttons/11.png' />&ndash;&gt;-->
+                        <!--</a>-->
+                    <!--</div>-->
+                </li>
+                <li><button class="btn">Custom Amount</button>
+                    <!--<div class='pm-button'>-->
+                        <!--<a href='https://www.payumoney.com/paybypayumoney/#/06279D810E4DAB465FD2CA96DDD69FC4'>-->
+                            <!--&lt;!&ndash;<img src='https://www.payumoney.com/media/images/payby_payumoney/new_buttons/21.png' />&ndash;&gt;-->
+                        <!--</a>-->
+                    <!--</div>-->
+                </li>
+            </ul>
+            <h2 class="text-center">Step 2: Click Button</h2>
+            <div class="center-block" style="width:10vw">
+                <div class='pm-button' id="500-button">
+                    <a href='https://www.payumoney.com/paybypayumoney/#/9CFCCC3C5DAF2EEFA471602C24C85CBA'>
+                        <img src='https://www.payumoney.com/media/images/payby_payumoney/new_buttons/21.png' />
+                    </a>
+                </div>
 
-        <table class="table">
-            <tbody>
-            <tr>
-                <td>Bank Name </td>
-                <td>State Bank of India, Sharanpur Road Branch, Nashik 422002</td>
-            </tr>
-            <tr>
-                <td>Account Name </td>
-                <td>Social Networking Forum</td>
-            </tr>
-            <tr>
-                <td>Account Number </td>
-                <td>34691906559</td>
-            </tr>
-            <tr>
-                <td>Account Type </td>
-                <td>Current</td>
-            </tr>
-            <tr>
-                <td>IFSC Code</td>
-                <td>SBIN0060431</td>
-            </tr>
-            <tr>
-                <td>MICR Code</td>
-                <td>422002017</td>
-            </tr>
-            </tbody>
-        </table>
-        <br><br>
-        <table class="table">
-            <tbody><tr>
-                <td>Bank Name </td>
-                <td>Bank of Maharashtra, Canada Corner Branch, Nashik 422002</td>
-            </tr>
+                <div class='pm-button' id="1000-button">
+                    <a href='https://www.payumoney.com/paybypayumoney/#/9BCACDE9334D7B821F261981913EB303'>
+                        <img src='https://www.payumoney.com/media/images/payby_payumoney/new_buttons/11.png' />
+                    </a>
+                </div>
+                <div class='pm-button' id="1500-button">
+                    <a href='https://www.payumoney.com/paybypayumoney/#/1FE03845ED11C5AB22A4C6B8B70B39BA'>
+                        <img src='https://www.payumoney.com/media/images/payby_payumoney/new_buttons/21.png' />
+                    </a>
+                </div>
 
-            <tr>
-                <td>Account Name </td>
-                <td>Social Networking Forum</td>
-            </tr>
+                <div class='pm-button' id="2000-button">
+                    <a href='https://www.payumoney.com/paybypayumoney/#/C1FCECA696B4E46542D64BF401301FCA'>
+                        <img src='https://www.payumoney.com/media/images/payby_payumoney/new_buttons/11.png' />
+                    </a>
+                </div>
 
-            <tr>
-                <td>Account Number </td>
-                <td>60252759927</td>
-            </tr>
+                <div class='pm-button' id="custom-button">
+                    <a href='https://www.payumoney.com/paybypayumoney/#/06279D810E4DAB465FD2CA96DDD69FC4'>
+                        <img src='https://www.payumoney.com/media/images/payby_payumoney/new_buttons/21.png' />
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
 
-            <tr>
-                <td>Account Type </td>
-                <td>Saving</td>
-            </tr>
-
-            <tr>
-                <td>IFSC Code</td>
-                <td>MAHB0000672</td>
-            </tr>
-
-            <tr>
-                <td>MICR Code</td>
-                <td>422014004</td>
-            </tr>
-
-            </tbody></table>
-        <br><br>
-        <table class="table">
-            <tbody><tr>
-                <td>Bank Name </td>
-                <td>Yes Bank, College Road Branch, Nashik 422002 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            </tr>
-
-            <tr>
-                <td>Account Name </td>
-                <td>Social Networking Forum</td>
-            </tr>
-
-            <tr>
-                <td>Account Number </td>
-                <td>002194600000191</td>
-            </tr>
-
-            <tr>
-                <td>Account Type </td>
-                <td>Saving</td>
-            </tr>
-
-            <tr>
-                <td>IFSC Code</td>
-                <td>YESB0000021</td>
-            </tr>
-
-            <tr>
-                <td>MICR Code</td>
-                <td>422532002</td>
-            </tr>
-
-            </tbody>
-        </table>
-        <br><br>
     </div>
-
 </div>
 <!-- footer with contact-->
 <div class="footer container-fluid ">
