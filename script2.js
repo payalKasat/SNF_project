@@ -8,6 +8,7 @@ $(document).ready(function() {
     supporter_animation();
     dynamicaly_blog_image();
     dynamicaly_awards_image();
+    payment_option();
 
     //donate button click
     $('.donate').click(function () {
